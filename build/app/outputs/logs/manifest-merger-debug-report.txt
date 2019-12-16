@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
-MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:image_cropper] /home/pratik/Projects/qrtest/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
-MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_cropper] /home/pratik/qr-test/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
+MERGED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/a16789bb7a92489c5cdb793d3bea80d1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.1.aar/07cded63a040bb376a52bd3fd6f4f398/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.1.aar/a3de90f32edf6c5f0bcce629b685b21e/AndroidManifest.xml:17:1-55:12
@@ -82,41 +82,41 @@ MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] /home/pratik/.gradle/
 MERGED from [com.google.firebase:firebase-database-collection:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-17.0.0.aar/d02e44f4a3140022a90269f27537309b/AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-17.0.0.aar/793b2777736c9aa06c563a7a6ad044a6/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/grpc-android-1.21.0.aar/2c1f7321a32c5699c4821ed3784e8c6a/AndroidManifest.xml:2:1-13:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:1:1-7:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:2:5-28
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:2:5-28
+		INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:1-48:12
+		INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.CAMERA
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:10:5-65
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:10:5-65
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:10:22-62
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:10:22-62
 application
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:14:5-47:19
-MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
-MERGED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
-MERGED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
-MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:14:5-47:19
+MERGED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
+MERGED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
+MERGED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.1.aar/07cded63a040bb376a52bd3fd6f4f398/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.1.aar/07cded63a040bb376a52bd3fd6f4f398/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.1.aar/a3de90f32edf6c5f0bcce629b685b21e/AndroidManifest.xml:28:5-53:19
@@ -174,77 +174,77 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/prati
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/6033b23749ca4ae31939758356f0c128/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:16:9-35
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:17:9-43
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:15:9-57
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:15:9-57
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:19:9-21:35
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:19:9-21:35
 	android:value
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:21:13-32
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:21:13-32
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:20:13-70
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:20:13-70
 activity#in.iaeste.agc.MainActivity
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:23:9-41:20
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:23:9-41:20
 	android:launchMode
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:25:13-43
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:25:13-43
 	android:hardwareAccelerated
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:28:13-47
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:28:13-47
 	android:windowSoftInputMode
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:29:13-55
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:29:13-55
 	android:configChanges
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:27:13-144
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:27:13-144
 	android:theme
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:26:13-47
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:26:13-47
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:24:13-41
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:24:13-41
 meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:34:13-36:40
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:34:13-36:40
 	android:value
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:36:17-37
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:36:17-37
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:35:17-82
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:35:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:38:17-68
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:38:17-68
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:39:17-76
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.apptreesoftware.barcodescan.BarcodeScannerActivity
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:42:9-90
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:42:9-90
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:42:19-88
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:42:19-88
 activity#com.yalantis.ucrop.UCropActivity
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:43:9-46:71
+ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:43:9-46:71
 	android:screenOrientation
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:45:13-49
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:45:13-49
 	android:theme
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:46:13-69
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:46:13-69
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:44:13-60
+		ADDED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml:44:13-60
 uses-sdk
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_cropper] /home/pratik/Projects/qrtest/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_cropper] /home/pratik/Projects/qrtest/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml
+INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /home/pratik/qr-test/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] /home/pratik/qr-test/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:barcode_scan] /home/pratik/qr-test/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/a16789bb7a92489c5cdb793d3bea80d1/AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/a16789bb7a92489c5cdb793d3bea80d1/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.1.aar/07cded63a040bb376a52bd3fd6f4f398/AndroidManifest.xml:5:5-44
@@ -387,16 +387,16 @@ MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/pratik
 MERGED from [com.google.firebase:protolite-well-known-types:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/protolite-well-known-types-17.0.0.aar/793b2777736c9aa06c563a7a6ad044a6/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/grpc-android-1.21.0.aar/2c1f7321a32c5699c4821ed3784e8c6a/AndroidManifest.xml:7:5-9:41
 MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/grpc-android-1.21.0.aar/2c1f7321a32c5699c4821ed3784e8c6a/AndroidManifest.xml:7:5-9:41
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml
+INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /home/pratik/qr-test/android/app/src/main/AndroidManifest.xml
+		INJECTED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:6:5-66
+ADDED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml:6:5-66
 MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.1.aar/a3de90f32edf6c5f0bcce629b685b21e/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.1.aar/a3de90f32edf6c5f0bcce629b685b21e/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:22:5-67
@@ -410,13 +410,13 @@ MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:23:5-67
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:6:22-64
+		ADDED from /home/pratik/qr-test/android/app/src/debug/AndroidManifest.xml:6:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+ADDED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:27:9-33:19
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:29:9-35:19
@@ -432,49 +432,49 @@ MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/ca
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+		ADDED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
+		ADDED from [:firebase_ml_vision] /home/pratik/qr-test/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
+ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
 	android:name
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
+ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:5-81
 	android:name
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:8:22-78
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
+ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-19:20
 	android:grantUriPermissions
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-47
 	android:authorities
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-74
 	android:exported
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-37
 	android:name
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
+ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:75
 	android:resource
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 	android:name
-		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
+		ADDED from [:image_picker] /home/pratik/qr-test/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
-ADDED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
+		ADDED from [:cloud_firestore] /home/pratik/qr-test/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-133
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+ADDED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
-		ADDED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+		ADDED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
 	android:name
-		ADDED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
+		ADDED from [:firebase_core] /home/pratik/qr-test/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-123
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-measurement:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.1.aar/a3de90f32edf6c5f0bcce629b685b21e/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:23:5-79

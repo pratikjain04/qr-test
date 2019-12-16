@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pratik/Projects/qrtest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/home/pratik/qr-test/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/961cc60e47fc2b06b2a0022c8d169323/res/values-v21/values-v21.xml",

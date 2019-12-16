@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pratik/Projects/qrtest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "/home/pratik/qr-test/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/6033b23749ca4ae31939758356f0c128/res/values-en-rCA/values-en-rCA.xml",

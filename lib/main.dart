@@ -1,5 +1,6 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'package:qrtest/ui/qrcode_read.dart';
 import 'dart:async';
 import 'ui/homepage.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'IAESTE Offer Map',
-      home: MyHomePage(title: 'IAESTE India'),
+      home: QRCodeScan(),
     );
   }
 }

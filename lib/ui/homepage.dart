@@ -1,6 +1,7 @@
 import 'dart:io';
 import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'package:flutter/material.dart';
+import 'package:qrtest/services/crud.dart';
 import 'package:qrtest/ui/dashboard.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
 import 'package:qrtest/utils/my_colors.dart';
@@ -8,23 +9,24 @@ import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:async';
 
-class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
-
+class ExtractOutgoing extends StatefulWidget {
+  final String incomingId;
   final String title;
 
+  ExtractOutgoing({Key key, this.title, this.incomingId}) : super(key: key);
+
   @override
-  _MyHomePageState createState() => _MyHomePageState();
+  _ExtractOutgoingState createState() => _ExtractOutgoingState();
 }
 
-class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
+class _ExtractOutgoingState extends State<ExtractOutgoing>
+    with TickerProviderStateMixin {
   File pickedImage;
   String extractedText = '';
 
   TextRecognizer recognizeText = FirebaseVision.instance.textRecognizer();
 
   Future<VoidCallback> getImage(int type) async {
-
     var image;
     if (type == 1)
       image = await ImagePicker.pickImage(source: ImageSource.gallery);
@@ -37,8 +39,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
 
     _cropImage(pickedImage);
   }
-
-
 
   Future<void> _cropImage(File imageFile) async {
     File cropped = await ImageCropper.cropImage(sourcePath: imageFile.path);
@@ -56,14 +56,85 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
         for (TextElement element in line.elements) {
           print(element.text);
 
-          if (element.text.contains('TR') ) {
+          if (element.text.contains('-2019-')) {
             setState(() {
               extractedText = element.text;
             });
+            _finalDataDialog(
+                incomingId: widget.incomingId, outgoingId: extractedText);
           }
         }
       }
     }
+  }
+
+  void showInSnackBar(String value) {
+    _scaffoldKey.currentState.showSnackBar(SnackBar(
+      action: SnackBarAction(
+          textColor: Colors.white,
+          label: "Scan Again",
+          onPressed: () {
+            Navigator.of(context).push(MaterialPageRoute(
+                builder: (BuildContext context) => QRCodeScan()));
+          }),
+      content: Row(
+        children: <Widget>[
+          Padding(
+            padding: EdgeInsets.only(right: 8.0),
+            child: Text(
+              value,
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+          Icon(
+            Icons.check,
+            color: Colors.white,
+          )
+        ],
+      ),
+      backgroundColor: Colors.green,
+    ));
+  }
+
+  Future<void> _finalDataDialog({String incomingId, String outgoingId}) async {
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false, // user must tap button!
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Final Data'),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Text('Incoming: $incomingId'),
+                Text('Outgoing: $outgoingId'),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            FlatButton(
+              child: Text('Submit'),
+              onPressed: () {
+                HandleCRUD()
+                    .addRefNumber(
+                        incomingId: incomingId, outgoingId: outgoingId)
+                    .then((v) {
+                  Navigator.pop(context);
+                  showInSnackBar("Data Added Successfully");
+                });
+              },
+            ),
+            FlatButton(
+              child: Text('Retake'),
+              onPressed: () {
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => QRCodeScan()));
+              },
+            ),
+          ],
+        );
+      },
+    );
   }
 
   AnimationController _controller;
@@ -81,9 +152,12 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     );
   }
 
+  final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      key: _scaffoldKey,
       drawer: Drawer(
         child: Container(
           child: Column(
@@ -121,7 +195,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
       appBar: AppBar(
         backgroundColor: MyColors.primaryColor,
         title: Text(
-          widget.title,
+          "IAESTE India",
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
@@ -155,8 +229,6 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       processImage().whenComplete(() {
                         recognizeText.close();
                       });
-
-
                     },
                   ),
                 ),
@@ -170,16 +242,19 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                     ),
                     onPressed: () {
                       _cropImage(pickedImage);
-
                     },
                   ),
                 ),
               ],
             ),
-
             Padding(
               padding: EdgeInsets.all(50.0),
-              child: Center(child: Text(extractedText, style: TextStyle(color: Colors.black),),),
+              child: Center(
+                child: Text(
+                  extractedText,
+                  style: TextStyle(color: Colors.black),
+                ),
+              ),
             )
           ],
         ),
@@ -202,7 +277,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                 backgroundColor: MyColors.primaryColor,
                 mini: true,
                 child: Icon(icons[index], color: Colors.white),
-                onPressed: (){
+                onPressed: () {
                   getImage(index);
                 },
               ),
@@ -221,8 +296,8 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                     transform:
                         Matrix4.rotationZ(_controller.value * 0.5 * 3.13),
                     alignment: FractionalOffset.center,
-                    child: Icon(
-                        _controller.isDismissed ? Icons.add : Icons.close),
+                    child:
+                        Icon(_controller.isDismissed ? Icons.add : Icons.close),
                   );
                 },
               ),

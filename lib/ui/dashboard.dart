@@ -15,7 +15,6 @@ class _DashboardState extends State<Dashboard> {
   void initState() {
     super.initState();
 //      data = HandleCRUD().getData();
-     HandleCRUD().addRefNumber();
   }
 
   @override

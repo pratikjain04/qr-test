@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/home/pratik/Projects/qrtest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
+            "outputFile": "/home/pratik/qr-test/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-de/values-de.xml",
             "map": [
                 {
                     "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.4.aar/5e9e8c9df55293229a8c3694de6a2110/res/values-de/values-de.xml",
