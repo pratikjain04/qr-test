@@ -14,8 +14,8 @@ class _DashboardState extends State<Dashboard> {
   @override
   void initState() {
     super.initState();
-    //  data = HandleCRUD().getData();
-    // HandleCRUD().addRefNumber();
+//      data = HandleCRUD().getData();
+     HandleCRUD().addRefNumber();
   }
 
   @override
@@ -29,24 +29,25 @@ class _DashboardState extends State<Dashboard> {
         ),
         centerTitle: true,
       ),
-      body: StreamBuilder<QuerySnapshot>(
-        stream: Firestore.instance.collection('/refNumber').snapshots(),
-        builder: (context, snapshot) {
-          if (!snapshot.hasData)
-            return new Text('Error Loading Data, Please check your internet connection}');
-          else{
-              return new ListView(
-                children: snapshot.data.documents.map((DocumentSnapshot document) {
-                  print(document);
-                  return new ListTile(
-                    title: new Text(document.data['taken']),
-                    subtitle: new Text(document.data['given']),
-                  );
-                }).toList(),
-              );
-          }
-        },
-      ),
+body: Container(),
+//      body: StreamBuilder<QuerySnapshot>(
+//        stream: Firestore.instance.collection('/refNumber').snapshots(),
+//        builder: (context, snapshot) {
+//          if (!snapshot.hasData)
+//            return new Text('Error Loading Data, Please check your internet connection}');
+//          else{
+//              return new ListView(
+//                children: snapshot.data.documents.map((DocumentSnapshot document) {
+//                  print(document);
+//                  return new ListTile(
+//                    title: new Text(document.data['taken']),
+//                    subtitle: new Text(document.data['given']),
+//                  );
+//                }).toList(),
+//              );
+//          }
+//        },
+//      ),
 //      body: FutureBuilder<DocumentSnapshot>(
 //        future: HandleCRUD().getData(),
 //        builder: (context, projectSnap) {

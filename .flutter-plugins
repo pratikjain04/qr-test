@@ -2,5 +2,6 @@
 barcode_scan=/home/pratik/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/
 cloud_firestore=/home/pratik/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.12.11/
 firebase_core=/home/pratik/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.2+1/
+firebase_ml_vision=/home/pratik/.pub-cache/hosted/pub.dartlang.org/firebase_ml_vision-0.9.3+5/
 image_cropper=/home/pratik/.pub-cache/hosted/pub.dartlang.org/image_cropper-1.1.1/
 image_picker=/home/pratik/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.2+2/

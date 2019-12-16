@@ -38,6 +38,23 @@
                     }
                 },
                 {
+                    "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/res/values-vi/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "194",
+                        "endOffsets": "441"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3978",
+                        "endColumns": "194",
+                        "endOffsets": "4168"
+                    }
+                },
+                {
                     "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/6033b23749ca4ae31939758356f0c128/res/values-vi/values-vi.xml",
                     "from": {
                         "startLines": "2",
@@ -52,23 +69,6 @@
                         "startOffsets": "5629",
                         "endColumns": "100",
                         "endOffsets": "5725"
-                    }
-                },
-                {
-                    "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/res/values-vi/values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "194",
-                        "endOffsets": "441"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3978",
-                        "endColumns": "194",
-                        "endOffsets": "4168"
                     }
                 }
             ]

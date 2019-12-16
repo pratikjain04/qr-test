@@ -4,7 +4,7 @@
             "outputFile": "/home/pratik/Projects/qrtest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-xhdpi-v4/values-xhdpi-v4.xml",
             "map": [
                 {
-                    "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/82b36b2df789a87d4f000321f07d8a9b/res/values-xhdpi-v4/values-xhdpi-v4.xml",
+                    "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/52f3d95d7bded2364b96041ac397b368/res/values-xhdpi-v4/values-xhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

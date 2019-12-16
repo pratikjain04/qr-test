@@ -80,6 +80,12 @@
       "languageVersion": "2.0"
     },
     {
+      "name": "firebase_ml_vision",
+      "rootUri": "file:///home/pratik/.pub-cache/hosted/pub.dartlang.org/firebase_ml_vision-0.9.3+5",
+      "packageUri": "lib/",
+      "languageVersion": "2.0"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///home/pratik/AppDevelopment/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -218,7 +224,7 @@
       "languageVersion": "2.1"
     }
   ],
-  "generated": "2019-12-16T08:08:54.485670Z",
+  "generated": "2019-12-16T08:31:29.305574Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }

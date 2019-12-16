@@ -1,41 +1,51 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-38:12
-INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-38:12
-MERGED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-38:12
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
+MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:image_cropper] /home/pratik/Projects/qrtest/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-17:12
 MERGED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-22:12
 MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
 MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:multidex:1.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f9f930b7d4f91279ef52d9eb393fe260/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/a16789bb7a92489c5cdb793d3bea80d1/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.1.aar/07cded63a040bb376a52bd3fd6f4f398/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.1.aar/a3de90f32edf6c5f0bcce629b685b21e/AndroidManifest.xml:17:1-55:12
 MERGED from [com.google.android.material:material:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/961cc60e47fc2b06b2a0022c8d169323/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/08095bc3c44ee07f6875aa125c4a8d44/AndroidManifest.xml:17:1-22:12
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/b8eb078f99e15048561dd9f6c711f799/AndroidManifest.xml:2:1-13:12
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/82b36b2df789a87d4f000321f07d8a9b/AndroidManifest.xml:2:1-13:12
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/52f3d95d7bded2364b96041ac397b368/AndroidManifest.xml:2:1-13:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/0f8c60643361ce09cb28579288bc202c/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/8a20d3859789dcc42990b2351aebc6ab/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:17:1-36:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.1.aar/36e75a9be8838fa73283c3c8176b2b54/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.1.aar/f4e5ceb0731a672d994b0255cb51ea81/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ml-vision-20.0.0.aar/66aad59631d6e93795fb550cbf8f8234/AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-ml-common:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ml-common-19.0.0.aar/cd311b9e6d4bd7a74fffe8dbf88b964e/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:17:1-47:12
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/43142db9a940552553700ab69dd18c15/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/99a690646962a3a62908c6036b3510e0/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:2:1-26:12
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-18.0.0.aar/9453bf4ad1c87863326a165f918e6ddf/AndroidManifest.xml:2:1-10:12
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:15:1-39:12
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.1.aar/bcb00dfe81e892e3bb1fbeaf57b36f6c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/baa4db119f0c940484fb7dc572011ca1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/d845bf976c02de1d04ea64eceef55ee8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/0248a6b21513eddb57dc716b6ba5b1ff/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-17.0.2.aar/f5e83ca6789ed9601e04a109b8add09c/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/e0ab8ded600f58b2296550fda94f8063/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/a03f5258f69baff51aa7143212464f55/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/069f02287a17a9f7dd6cf1331ae49d43/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/403f0c271aefdfb533d7a12af7d7f9ec/AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/66d202a171a025897941bea60a230efa/AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/4fb4c01065e372e28845613e7b55d2a1/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/cca61d05b7b85715d396cf254833c629/AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/383fbe7b9e5ae43bd58e13a35fa3e595/AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:17:1-28:12
 MERGED from [com.github.yalantis:ucrop:2.2.4] /home/pratik/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.4.aar/5e9e8c9df55293229a8c3694de6a2110/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/e80f8772ff292a9fd6d0c25ce9e7cf85/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/fragment-1.1.0.aar/30bc78fa5dc59b7b86a79bdfa5b499fe/AndroidManifest.xml:17:1-24:12
@@ -60,7 +70,7 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] /home/pratik/.gradle/ca
 MERGED from [androidx.savedstate:savedstate:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/savedstate-1.0.0.aar/e731cbfd76555acd8e5b1168f335c32d/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] /home/pratik/.gradle/caches/transforms-1/files-1.1/exifinterface-1.1.0-beta01.aar/2e5bcaecba84c8da467ef843dc0dd986/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.cardview:cardview:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/b14fa40cf29b69ce3a0f0ac0fda0304d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-components-16.0.0.aar/13aa32f4716757ff1daadc5a0233d168/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-components-16.0.0.aar/f6644775e89e8f9f14070dd8bd624c5e/AndroidManifest.xml:15:1-23:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d93683bf9b406a8269c4c8a41fce0d9b/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/ee27b46763dca8627d1c69717d8c9dab/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/b1f4b0f2a2cccfccbf40b4e590bde72c/AndroidManifest.xml:17:1-22:12
@@ -76,16 +86,16 @@ INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest
 INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:1:1-7:12
 	package
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:2:5-31
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:2:5-28
 		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
 		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
 		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-38:12
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:1-48:12
 		INJECTED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:1:11-69
@@ -96,7 +106,9 @@ MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/inte
 	android:name
 		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:10:22-62
 application
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:13:5-37:19
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:14:5-47:19
+MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-13:19
 MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
 MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:13:5-15:19
 MERGED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-20:19
@@ -113,8 +125,8 @@ MERGED from [com.google.android.material:material:1.0.0] /home/pratik/.gradle/ca
 MERGED from [com.google.android.material:material:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/961cc60e47fc2b06b2a0022c8d169323/AndroidManifest.xml:22:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/b8eb078f99e15048561dd9f6c711f799/AndroidManifest.xml:11:5-20
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/b8eb078f99e15048561dd9f6c711f799/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/82b36b2df789a87d4f000321f07d8a9b/AndroidManifest.xml:11:5-20
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/82b36b2df789a87d4f000321f07d8a9b/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/52f3d95d7bded2364b96041ac397b368/AndroidManifest.xml:11:5-20
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/52f3d95d7bded2364b96041ac397b368/AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:26:5-34:19
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.1.aar/36e75a9be8838fa73283c3c8176b2b54/AndroidManifest.xml:22:5-23:19
@@ -125,16 +137,26 @@ MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/cache
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:28:5-45:19
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/43142db9a940552553700ab69dd18c15/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/43142db9a940552553700ab69dd18c15/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:16:5-24:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:16:5-24:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-18.0.0.aar/9453bf4ad1c87863326a165f918e6ddf/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-18.0.0.aar/9453bf4ad1c87863326a165f918e6ddf/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:25:5-37:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:25:5-37:19
 MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.1.aar/bcb00dfe81e892e3bb1fbeaf57b36f6c/AndroidManifest.xml:7:5-20
 MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.1.aar/bcb00dfe81e892e3bb1fbeaf57b36f6c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/d845bf976c02de1d04ea64eceef55ee8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/d845bf976c02de1d04ea64eceef55ee8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/0248a6b21513eddb57dc716b6ba5b1ff/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/0248a6b21513eddb57dc716b6ba5b1ff/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-17.0.2.aar/f5e83ca6789ed9601e04a109b8add09c/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-17.0.2.aar/f5e83ca6789ed9601e04a109b8add09c/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/e0ab8ded600f58b2296550fda94f8063/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/e0ab8ded600f58b2296550fda94f8063/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/a03f5258f69baff51aa7143212464f55/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/a03f5258f69baff51aa7143212464f55/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/403f0c271aefdfb533d7a12af7d7f9ec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/403f0c271aefdfb533d7a12af7d7f9ec/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/66d202a171a025897941bea60a230efa/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/66d202a171a025897941bea60a230efa/AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/4fb4c01065e372e28845613e7b55d2a1/AndroidManifest.xml:7:5-20
@@ -143,8 +165,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/pr
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/cca61d05b7b85715d396cf254833c629/AndroidManifest.xml:22:5-23:19
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/383fbe7b9e5ae43bd58e13a35fa3e595/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/383fbe7b9e5ae43bd58e13a35fa3e595/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/6033b23749ca4ae31939758356f0c128/AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/6033b23749ca4ae31939758356f0c128/AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.1.0.aar/eac1fcda78cd730c90c9ba7d20c8cd83/AndroidManifest.xml:24:5-25:19
@@ -152,51 +174,67 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/prati
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.1.0.aar/6033b23749ca4ae31939758356f0c128/AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:15:9-31
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:16:9-35
 	android:icon
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:16:9-43
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:17:9-43
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:14:9-57
-activity#in.iaeste.qrtest.MainActivity
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:17:9-35:20
-	android:launchMode
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:19:13-43
-	android:hardwareAccelerated
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:22:13-47
-	android:windowSoftInputMode
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:23:13-55
-	android:configChanges
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:21:13-144
-	android:theme
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:20:13-47
-	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:18:13-41
-meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:28:13-30:40
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:15:9-57
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:19:9-21:35
 	android:value
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:30:17-37
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:21:13-32
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:29:17-82
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:20:13-70
+activity#in.iaeste.agc.MainActivity
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:23:9-41:20
+	android:launchMode
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:25:13-43
+	android:hardwareAccelerated
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:28:13-47
+	android:windowSoftInputMode
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:29:13-55
+	android:configChanges
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:27:13-144
+	android:theme
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:26:13-47
+	android:name
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:24:13-41
+meta-data#io.flutter.app.android.SplashScreenUntilFirstFrame
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:34:13-36:40
+	android:value
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:36:17-37
+	android:name
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:35:17-82
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:31:13-34:29
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:32:17-68
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:38:17-68
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:32:25-66
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:33:17-76
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:33:27-74
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:39:27-74
 activity#com.apptreesoftware.barcodescan.BarcodeScannerActivity
-ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:36:9-90
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:42:9-90
 MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
 MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:14:9-91
 	android:name
-		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:36:19-88
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:42:19-88
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:43:9-46:71
+	android:screenOrientation
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:45:13-49
+	android:theme
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:46:13-69
+	android:name
+		ADDED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml:44:13-60
 uses-sdk
 INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/pratik/Projects/qrtest/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_cropper] /home/pratik/Projects/qrtest/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:image_cropper] /home/pratik/Projects/qrtest/build/image_cropper/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:barcode_scan] /home/pratik/Projects/qrtest/build/barcode_scan/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
@@ -207,8 +245,8 @@ MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestor
 MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:multidex:1.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f9f930b7d4f91279ef52d9eb393fe260/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:multidex:1.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-1.0.2.aar/f9f930b7d4f91279ef52d9eb393fe260/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/a16789bb7a92489c5cdb793d3bea80d1/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/multidex-2.0.0.aar/a16789bb7a92489c5cdb793d3bea80d1/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.1.aar/07cded63a040bb376a52bd3fd6f4f398/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-analytics-17.2.1.aar/07cded63a040bb376a52bd3fd6f4f398/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-17.2.1.aar/a3de90f32edf6c5f0bcce629b685b21e/AndroidManifest.xml:20:5-44
@@ -219,8 +257,8 @@ MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pratik/.gradle/cach
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/08095bc3c44ee07f6875aa125c4a8d44/AndroidManifest.xml:20:5-44
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/b8eb078f99e15048561dd9f6c711f799/AndroidManifest.xml:7:5-9:41
 MERGED from [me.dm7.barcodescanner:zxing:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/zxing-1.9.13.aar/b8eb078f99e15048561dd9f6c711f799/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/82b36b2df789a87d4f000321f07d8a9b/AndroidManifest.xml:7:5-9:41
-MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/82b36b2df789a87d4f000321f07d8a9b/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/52f3d95d7bded2364b96041ac397b368/AndroidManifest.xml:7:5-9:41
+MERGED from [me.dm7.barcodescanner:core:1.9.13] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-core-1.9.13.aar/52f3d95d7bded2364b96041ac397b368/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/0f8c60643361ce09cb28579288bc202c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0.aar/0f8c60643361ce09cb28579288bc202c/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/8a20d3859789dcc42990b2351aebc6ab/AndroidManifest.xml:20:5-44
@@ -231,24 +269,42 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/
 MERGED from [com.google.android.gms:play-services-measurement-sdk:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-17.2.1.aar/36e75a9be8838fa73283c3c8176b2b54/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.1.aar/f4e5ceb0731a672d994b0255cb51ea81/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.1.aar/f4e5ceb0731a672d994b0255cb51ea81/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ml-vision-20.0.0.aar/66aad59631d6e93795fb550cbf8f8234/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-vision:20.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ml-vision-20.0.0.aar/66aad59631d6e93795fb550cbf8f8234/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ml-common-19.0.0.aar/cd311b9e6d4bd7a74fffe8dbf88b964e/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-ml-common:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-ml-common-19.0.0.aar/cd311b9e6d4bd7a74fffe8dbf88b964e/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/43142db9a940552553700ab69dd18c15/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-stats:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-stats-17.0.0.aar/43142db9a940552553700ab69dd18c15/AndroidManifest.xml:5:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/99a690646962a3a62908c6036b3510e0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/99a690646962a3a62908c6036b3510e0/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-18.0.0.aar/9453bf4ad1c87863326a165f918e6ddf/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-auth-interop:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-18.0.0.aar/9453bf4ad1c87863326a165f918e6ddf/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:20:5-22:41
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.1.aar/bcb00dfe81e892e3bb1fbeaf57b36f6c/AndroidManifest.xml:5:5-44
 MERGED from [com.google.android.gms:play-services-measurement-base:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-17.2.1.aar/bcb00dfe81e892e3bb1fbeaf57b36f6c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/baa4db119f0c940484fb7dc572011ca1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-auth-base-16.0.0.aar/baa4db119f0c940484fb7dc572011ca1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/d845bf976c02de1d04ea64eceef55ee8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-17.0.2.aar/d845bf976c02de1d04ea64eceef55ee8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/0248a6b21513eddb57dc716b6ba5b1ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-image-label:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-vision-image-label-17.0.2.aar/0248a6b21513eddb57dc716b6ba5b1ff/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-17.0.2.aar/f5e83ca6789ed9601e04a109b8add09c/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:17.0.2] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-vision-common-17.0.2.aar/f5e83ca6789ed9601e04a109b8add09c/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/e0ab8ded600f58b2296550fda94f8063/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-iid-interop:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-17.0.0.aar/e0ab8ded600f58b2296550fda94f8063/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/a03f5258f69baff51aa7143212464f55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-clearcut:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-clearcut-16.0.0.aar/a03f5258f69baff51aa7143212464f55/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/069f02287a17a9f7dd6cf1331ae49d43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/069f02287a17a9f7dd6cf1331ae49d43/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/403f0c271aefdfb533d7a12af7d7f9ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-phenotype:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-phenotype-16.0.0.aar/403f0c271aefdfb533d7a12af7d7f9ec/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/66d202a171a025897941bea60a230efa/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/66d202a171a025897941bea60a230efa/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-tasks-17.0.0.aar/4fb4c01065e372e28845613e7b55d2a1/AndroidManifest.xml:5:5-44
@@ -257,8 +313,8 @@ MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/pr
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-18.0.0.aar/cca61d05b7b85715d396cf254833c629/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/383fbe7b9e5ae43bd58e13a35fa3e595/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-ads-identifier-17.0.0.aar/383fbe7b9e5ae43bd58e13a35fa3e595/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:20:5-44
 MERGED from [com.github.yalantis:ucrop:2.2.4] /home/pratik/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.4.aar/5e9e8c9df55293229a8c3694de6a2110/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.yalantis:ucrop:2.2.4] /home/pratik/.gradle/caches/transforms-1/files-1.1/ucrop-2.2.4.aar/5e9e8c9df55293229a8c3694de6a2110/AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.1.0.aar/e80f8772ff292a9fd6d0c25ce9e7cf85/AndroidManifest.xml:20:5-22:41
@@ -307,8 +363,8 @@ MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] /home/pratik/.gr
 MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] /home/pratik/.gradle/caches/transforms-1/files-1.1/exifinterface-1.1.0-beta01.aar/2e5bcaecba84c8da467ef843dc0dd986/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.cardview:cardview:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/b14fa40cf29b69ce3a0f0ac0fda0304d/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/b14fa40cf29b69ce3a0f0ac0fda0304d/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-components-16.0.0.aar/13aa32f4716757ff1daadc5a0233d168/AndroidManifest.xml:19:5-21:41
-MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-components-16.0.0.aar/13aa32f4716757ff1daadc5a0233d168/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-components-16.0.0.aar/f6644775e89e8f9f14070dd8bd624c5e/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-components-16.0.0.aar/f6644775e89e8f9f14070dd8bd624c5e/AndroidManifest.xml:19:5-21:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d93683bf9b406a8269c4c8a41fce0d9b/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/d93683bf9b406a8269c4c8a41fce0d9b/AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/ee27b46763dca8627d1c69717d8c9dab/AndroidManifest.xml:20:5-44
@@ -349,12 +405,40 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.1.aar/f4e5ceb0731a672d994b0255cb51ea81/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:23:5-67
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:14:5-67
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:14:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:23:5-67
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from /home/pratik/Projects/qrtest/android/app/src/debug/AndroidManifest.xml:6:22-64
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:32:9-36:35
+MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:29:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebasemlvision.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_ml_vision] /home/pratik/Projects/qrtest/build/firebase_ml_vision/intermediates/library_manifest/debug/AndroidManifest.xml:10:17-126
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-80
 	android:name
@@ -379,26 +463,6 @@ ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/inter
 		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:18:17-72
 	android:name
 		ADDED from [:image_picker] /home/pratik/Projects/qrtest/build/image_picker/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-67
-service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [:firebase_core] /home/pratik/Projects/qrtest/build/firebase_core/intermediates/library_manifest/debug/AndroidManifest.xml:8:9-12:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:27:9-33:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:29:9-35:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:17:9-23:19
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:32:9-36:35
-MERGED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:32:9-36:35
-	android:exported
-		ADDED from [com.google.android.gms:play-services-measurement-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-api-17.2.1.aar/1c2a29bdbf7725e360bc3a41f36fb436/AndroidManifest.xml:29:13-37
-	tools:targetApi
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:36:13-32
-	android:directBootAware
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:34:13-43
-	android:name
-		ADDED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:8:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar
 ADDED from [:cloud_firestore] /home/pratik/Projects/qrtest/build/cloud_firestore/intermediates/library_manifest/debug/AndroidManifest.xml:9:13-11:85
 	android:value
@@ -419,8 +483,8 @@ MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home
 MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-impl-17.2.1.aar/f4e5ceb0731a672d994b0255cb51ea81/AndroidManifest.xml:24:5-79
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:22:5-79
 MERGED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:22:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:13:5-79
-MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:13:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-measurement-sdk-api-17.2.1.aar/6caa6145ca05afc41d903e47dcb45e96/AndroidManifest.xml:24:5-79
 MERGED from [io.grpc:grpc-android:1.21.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/grpc-android-1.21.0.aar/2c1f7321a32c5699c4821ed3784e8c6a/AndroidManifest.xml:11:5-79
@@ -520,21 +584,21 @@ ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches
 	android:name
 		ADDED from [com.google.firebase:firebase-iid:19.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-iid-19.0.0.aar/bb2a509c6f5fa5aac242daf273e9f42c/AndroidManifest.xml:42:25-78
 meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
-ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:20:13-22:85
+ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:20:13-22:85
 	android:value
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:22:17-82
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:22:17-82
 	android:name
-		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-firestore-21.3.0.aar/d3cde5ea55895c1c7435832067b04dbb/AndroidManifest.xml:21:17-111
+		ADDED from [com.google.firebase:firebase-firestore:21.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-firestore-21.3.0.aar/a5070331e9c196705155f3e54d988530/AndroidManifest.xml:21:17-111
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:26:9-30:39
+ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:26:9-30:39
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:28:13-72
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:28:13-72
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:29:13-37
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:29:13-37
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:30:13-36
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/firebase-common-19.3.0.aar/0d2ed6db6a80287f5b93e187cddae31f/AndroidManifest.xml:27:13-77
+		ADDED from [com.google.firebase:firebase-common:19.3.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-19.3.0.aar/ff346f1e351b47c769e1ffb29003c1f8/AndroidManifest.xml:27:13-77
 activity#com.google.android.gms.common.api.GoogleApiActivity
 ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/66d202a171a025897941bea60a230efa/AndroidManifest.xml:23:9-26:75
 	android:exported
@@ -544,8 +608,8 @@ ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.grad
 	android:name
 		ADDED from [com.google.android.gms:play-services-base:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-base-17.0.0.aar/66d202a171a025897941bea60a230efa/AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/AndroidManifest.xml:24:13-58

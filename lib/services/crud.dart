@@ -6,7 +6,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 // takenRef: Taken from Foreign for India
 class HandleCRUD {
 
-  Future<void> addRefNumber({String givenRef, String takenRef}) async{
+  Future<void> addRefNumber({String givenRef = "xyz", String takenRef = "abc"}) async{
 
     Map<String,String> data = {
       "given": givenRef,

@@ -4,7 +4,7 @@
             "outputFile": "/home/pratik/Projects/qrtest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
             "map": [
                 {
-                    "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/play-services-basement-17.0.0.aar/c810db8ff9052ed8f21275910760d045/res/values-sv/values.xml",
+                    "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-17.0.0.aar/bcadd758dc2f9a06e583944cb3e82794/res/values-sv/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

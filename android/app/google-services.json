@@ -1,79 +1,42 @@
 {
   "project_info": {
-    "project_number": "302204656620",
-    "firebase_url": "https://iaeste-offermap.firebaseio.com",
-    "project_id": "iaeste-offermap",
-    "storage_bucket": "iaeste-offermap.appspot.com"
+    "project_number": "64978411471",
+    "firebase_url": "https://offermap-7fbfc.firebaseio.com",
+    "project_id": "offermap-7fbfc",
+    "storage_bucket": "offermap-7fbfc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:302204656620:android:da19b393bd39b5aecc3ec9",
+        "mobilesdk_app_id": "1:64978411471:android:fc51afbf8f7c25bc6ffcba",
         "android_client_info": {
-          "package_name": "in.iaeste.iaeste_map"
+          "package_name": "in.iaeste.agc"
         }
       },
       "oauth_client": [
         {
-          "client_id": "302204656620-m0emclf0l6bbil72bpdhh2v4q706avrj.apps.googleusercontent.com",
+          "client_id": "64978411471-oqfihhanb2nnpvgqso5let4dr6rl1b7n.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "in.iaeste.iaeste_map",
+            "package_name": "in.iaeste.agc",
             "certificate_hash": "face7e458e1556d63659e42510a4aa07c1fad35c"
           }
         },
         {
-          "client_id": "302204656620-kpvhfmthp1n6ceks3ep2i76qmfv6b18d.apps.googleusercontent.com",
+          "client_id": "64978411471-9h3h79pmdsut29oicoajsvq2eilfl3qu.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyArqxJSDYZKYTgOSP9JJfI_qZ7_BuYr_Rg"
+          "current_key": "AIzaSyCKUBK3LrmOWwwruG1vOQ5rqwitjDh0Hg4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "302204656620-kpvhfmthp1n6ceks3ep2i76qmfv6b18d.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:302204656620:android:ff7b17f6887b3861cc3ec9",
-        "android_client_info": {
-          "package_name": "in.iaeste.qrtest"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "302204656620-e16pe58f2gagg7onf53v18mpg6jkmgan.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "in.iaeste.qrtest",
-            "certificate_hash": "face7e458e1556d63659e42510a4aa07c1fad35c"
-          }
-        },
-        {
-          "client_id": "302204656620-kpvhfmthp1n6ceks3ep2i76qmfv6b18d.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyArqxJSDYZKYTgOSP9JJfI_qZ7_BuYr_Rg"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "302204656620-kpvhfmthp1n6ceks3ep2i76qmfv6b18d.apps.googleusercontent.com",
+              "client_id": "64978411471-9h3h79pmdsut29oicoajsvq2eilfl3qu.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

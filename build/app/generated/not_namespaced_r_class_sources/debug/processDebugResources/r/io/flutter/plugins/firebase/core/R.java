@@ -75,6 +75,10 @@ public final class R {
         public static final int notification_subtext_size = 0x7f0600cf;
         public static final int notification_top_pad = 0x7f0600d0;
         public static final int notification_top_pad_large_text = 0x7f0600d1;
+        public static final int subtitle_corner_radius = 0x7f0600d2;
+        public static final int subtitle_outline_width = 0x7f0600d3;
+        public static final int subtitle_shadow_offset = 0x7f0600d4;
+        public static final int subtitle_shadow_radius = 0x7f0600d5;
     }
     public static final class drawable {
         private drawable() {}
