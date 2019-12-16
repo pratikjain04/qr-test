@@ -88,7 +88,7 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
         for (TextElement element in line.elements) {
           print(element.text);
 
-          if (element.text.contains('-2019-')) {
+          if (element.text.contains('-2019-') || element.text.contains('-2020-')) {
             setState(() {
               extractedText = element.text;
             });
@@ -167,7 +167,8 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
                 ),
               ),
             ),
-            Row(
+           pickedImage == null ? Container() :  Row(
+              mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Padding(
                   padding: EdgeInsets.all(50.0),
