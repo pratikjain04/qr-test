@@ -184,19 +184,6 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
                     },
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsets.all(50.0),
-                  child: RaisedButton(
-                    color: MyColors.primaryColor,
-                    child: Text(
-                      'Crop Image',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                    onPressed: () {
-                      _cropImage(pickedImage);
-                    },
-                  ),
-                ),
               ],
             ),
             Padding(

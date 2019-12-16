@@ -28,7 +28,9 @@ class _DashboardState extends State<Dashboard> {
         centerTitle: true,
 
         actions: <Widget>[
-          IconButton(icon: Image.asset("assets/qr-code.png", color: Colors.white,), onPressed: (){
+          IconButton(
+              tooltip: "Scan QR Code",
+              icon: Image.asset("assets/qr-code.png", color: Colors.white,), onPressed: (){
             Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => QRCodeScan()));
           }),
         ],

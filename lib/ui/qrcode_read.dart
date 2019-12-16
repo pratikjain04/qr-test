@@ -30,6 +30,7 @@ class _QRCodeScanState extends State<QRCodeScan> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+        backgroundColor: Colors.white,
         appBar: AppBar(
           backgroundColor: MyColors.primaryColor,
           title: Text('IAESTE India'),
@@ -53,7 +54,15 @@ class _QRCodeScanState extends State<QRCodeScan> {
             });
           },
         ),
-        body: Container());
+        body: Center(
+          child: Container(
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage("assets/bg.png"),
+                  )
+              ),
+        ))
+    );
   }
 
   Future<void> _finalDataDialog() async {
