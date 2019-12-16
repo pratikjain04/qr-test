@@ -1,7 +1,8 @@
 import 'dart:io';
-import 'package:firebase_ml_vision/firebase_ml_vision.dart';
+//import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'package:flutter/material.dart';
 import 'package:qrtest/ui/dashboard.dart';
+import 'package:qrtest/ui/qrcode_read.dart';
 import 'package:qrtest/utils/my_colors.dart';
 import 'package:image_cropper/image_cropper.dart';
 import 'package:image_picker/image_picker.dart';
@@ -20,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
   File pickedImage;
   String extractedText = '';
 
-  TextRecognizer recognizeText = FirebaseVision.instance.textRecognizer();
+ // TextRecognizer recognizeText = FirebaseVision.instance.textRecognizer();
 
   Future<VoidCallback> getImage(int type) async {
 
@@ -47,23 +48,23 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     });
   }
 
-  Future<void> processImage() async {
-    FirebaseVisionImage ourImage = FirebaseVisionImage.fromFile(pickedImage);
-    VisionText readText = await recognizeText.processImage(ourImage);
-    for (TextBlock block in readText.blocks) {
-      for (TextLine line in block.lines) {
-        for (TextElement element in line.elements) {
-          print(element.text);
-
-          if (element.text.contains('TR') ) {
-            setState(() {
-              extractedText = element.text;
-            });
-          }
-        }
-      }
-    }
-  }
+//  Future<void> processImage() async {
+//    FirebaseVisionImage ourImage = FirebaseVisionImage.fromFile(pickedImage);
+//    VisionText readText = await recognizeText.processImage(ourImage);
+//    for (TextBlock block in readText.blocks) {
+//      for (TextLine line in block.lines) {
+//        for (TextElement element in line.elements) {
+//          print(element.text);
+//
+//          if (element.text.contains('TR') ) {
+//            setState(() {
+//              extractedText = element.text;
+//            });
+//          }
+//        }
+//      }
+//    }
+//  }
 
   AnimationController _controller;
 
@@ -107,9 +108,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                     style: TextStyle(color: MyColors.primaryColor),
                   ),
                   onPressed: () {
-//                    Navigator.of(context).push(MaterialPageRoute(
-//                      builder: (BuildContext context) => QRScan(),
-//                    ));
+                    Navigator.of(context).push(MaterialPageRoute(
+                      builder: (BuildContext context) => QRCodeScan(),
+                    ));
                   },
                 ),
               ),
@@ -151,9 +152,9 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                       style: TextStyle(color: Colors.white),
                     ),
                     onPressed: () {
-                      processImage().whenComplete(() {
-                        recognizeText.close();
-                      });
+//                      processImage().whenComplete(() {
+//                        recognizeText.close();
+//                      });
 
 
                     },

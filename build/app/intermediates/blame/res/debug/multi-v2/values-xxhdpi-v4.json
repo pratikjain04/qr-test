@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/pratik/Projects/qrtest/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/82b36b2df789a87d4f000321f07d8a9b/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    }
+                }
+            ]
+        }
+    ]
+}
