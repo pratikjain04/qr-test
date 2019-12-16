@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:qrtest/services/crud.dart';
+import 'package:qrtest/ui/qrcode_read.dart';
 import 'package:qrtest/utils/my_colors.dart';
 
 class Dashboard extends StatefulWidget {
@@ -14,7 +14,6 @@ class _DashboardState extends State<Dashboard> {
   @override
   void initState() {
     super.initState();
-//      data = HandleCRUD().getData();
   }
 
   @override
@@ -27,44 +26,33 @@ class _DashboardState extends State<Dashboard> {
           style: TextStyle(color: Colors.white),
         ),
         centerTitle: true,
+
+        actions: <Widget>[
+          IconButton(icon: Image.asset("assets/qr-code.png", color: Colors.white,), onPressed: (){
+            Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => QRCodeScan()));
+          }),
+        ],
       ),
-body: Container(),
-//      body: StreamBuilder<QuerySnapshot>(
-//        stream: Firestore.instance.collection('/refNumber').snapshots(),
-//        builder: (context, snapshot) {
-//          if (!snapshot.hasData)
-//            return new Text('Error Loading Data, Please check your internet connection}');
-//          else{
-//              return new ListView(
-//                children: snapshot.data.documents.map((DocumentSnapshot document) {
-//                  print(document);
-//                  return new ListTile(
-//                    title: new Text(document.data['taken']),
-//                    subtitle: new Text(document.data['given']),
-//                  );
-//                }).toList(),
-//              );
-//          }
-//        },
-//      ),
-//      body: FutureBuilder<DocumentSnapshot>(
-//        future: HandleCRUD().getData(),
-//        builder: (context, projectSnap) {
-//          if (!projectSnap.hasData) {
-//            return Center(
-//              child: CircularProgressIndicator(),
-//            );
-//          }
-//          print("dashboard.dart:${projectSnap.data}");
-//          return ListView.builder(
-//            itemCount: 1,
-//              itemBuilder: (BuildContext context, index) {
-//                return ListTile(
-//                  title: Text(projectSnap.toString()),
-//                );
-//              });
-//        },
-//      ),
+      body: StreamBuilder<QuerySnapshot>(
+        stream: Firestore.instance.collection('/refNumber').snapshots(),
+        builder: (context, snapshot) {
+          if (!snapshot.hasData)
+            return Center(child: CircularProgressIndicator(
+              valueColor: AlwaysStoppedAnimation(MyColors.primaryColor),));
+          else{
+              return ListView(
+                children: snapshot.data.documents.map((DocumentSnapshot document) {
+                  print(document);
+                  return ListTile(
+                    title: Text(document.data['outgoing']),
+                    subtitle: Text(document.data['incoming']),
+                  );
+                }).toList(),
+              );
+          }
+        },
+      ),
+
     );
   }
 }

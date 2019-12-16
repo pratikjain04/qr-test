@@ -1,8 +1,8 @@
 import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/material.dart';
-import 'package:qrtest/ui/homepage.dart';
+import 'package:qrtest/ui/dashboard.dart';
+import 'package:qrtest/ui/extract_outgoing.dart';
 import 'package:qrtest/utils/my_colors.dart';
-
 
 class QRCodeScan extends StatefulWidget {
   @override
@@ -10,10 +10,7 @@ class QRCodeScan extends StatefulWidget {
 }
 
 class _QRCodeScanState extends State<QRCodeScan> {
-
-
   String barcode = '';
-
 
   Future scan() async {
     try {
@@ -28,6 +25,35 @@ class _QRCodeScanState extends State<QRCodeScan> {
         setState(() => this.barcode = 'Unknown error: $e');
       }
     }
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          backgroundColor: MyColors.primaryColor,
+          title: Text('IAESTE India'),
+          centerTitle: true,
+          actions: <Widget>[
+            IconButton(icon: Icon(Icons.track_changes, color: Colors.white,), onPressed: (){
+              Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Dashboard()));
+            },)
+          ],
+        ),
+        floatingActionButton: FloatingActionButton(
+          tooltip: "Scan QR",
+          child: Image(
+            image: AssetImage("assets/qr-code.png"),
+            color: Colors.white,
+          ),
+          backgroundColor: MyColors.primaryColor,
+          onPressed: () {
+            scan().then((v) {
+              _finalDataDialog();
+            });
+          },
+        ),
+        body: Container());
   }
 
   Future<void> _finalDataDialog() async {
@@ -48,8 +74,10 @@ class _QRCodeScanState extends State<QRCodeScan> {
             FlatButton(
               child: Text('Go Ahead'),
               onPressed: () {
-                Navigator.of(context).push(MaterialPageRoute(builder: (BuildContext context) => ExtractOutgoing(incomingId: barcode,)));
-
+                Navigator.of(context).push(MaterialPageRoute(
+                    builder: (BuildContext context) => ExtractOutgoing(
+                          incomingId: barcode,
+                        )));
               },
             ),
             FlatButton(
@@ -61,29 +89,6 @@ class _QRCodeScanState extends State<QRCodeScan> {
           ],
         );
       },
-    );
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-        appBar: new AppBar(
-          backgroundColor: MyColors.primaryColor,
-          title: new Text('IAESTE India'),
-          centerTitle: true,
-        ),
-
-        floatingActionButton: FloatingActionButton(
-          tooltip: "Scan QR",
-          child: Image(image: AssetImage("assets/qr-code.png"), color: Colors.white,),
-          backgroundColor: MyColors.primaryColor,
-          onPressed: (){
-            scan().then((v){
-              _finalDataDialog();
-            });
-          },
-        ),
-        body: Container()
     );
   }
 }

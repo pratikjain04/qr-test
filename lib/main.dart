@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
 import 'dart:async';
-import 'ui/homepage.dart';
+import 'ui/extract_outgoing.dart';
 
 void main() {
 
