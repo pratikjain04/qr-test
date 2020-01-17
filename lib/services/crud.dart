@@ -6,11 +6,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 // outgoing: Taken from Foreign for India
 class HandleCRUD {
 
-  Future<void> addRefNumber({String incomingId = "", String outgoingId = ""}) async{
+  Future<void> addRefNumber({String incomingId = "", String outgoingId = "", String comments = ""}) async{
 
     Map<String,String> data = {
       "incoming": incomingId,
-      "outgoing": outgoingId
+      "outgoing": outgoingId,
+      "comments": comments
     };
 
     Firestore.instance.collection('/refNumber').add(data).catchError((e){
@@ -24,4 +25,27 @@ class HandleCRUD {
   }
 
 
+  /// not for use right now
+//  updateData(selectedDoc, newValues) {
+//    Firestore.instance
+//        .collection('')
+//        .document(selectedDoc)
+//        .updateData(newValues)
+//        .catchError((e) {
+//      print(e);
+//    });
+//  }
+
+  // for deleting a offer map from database
+  deleteData(docId) {
+    Firestore.instance
+        .collection('refNumber')
+        .document(docId)
+        .delete()
+        .catchError((e) {
+      print(e);
+    });
+  }
 }
+
+

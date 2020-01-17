@@ -36,7 +36,9 @@ class _QRCodeScanState extends State<QRCodeScan> {
           title: Text('IAESTE India'),
           centerTitle: true,
           actions: <Widget>[
-            IconButton(icon: Icon(Icons.track_changes, color: Colors.white,), onPressed: (){
+            IconButton(
+              tooltip: 'Dashboard',
+              icon: Icon(Icons.track_changes, color: Colors.white,), onPressed: (){
               Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Dashboard()));
             },)
           ],

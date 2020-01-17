@@ -24,6 +24,7 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
   File pickedImage;
   String extractedText = '';
   AnimationController _controller;
+  TextEditingController commentController = TextEditingController();
   static const List<IconData> icons = const [
     Icons.camera_alt,
     Icons.photo,
@@ -88,15 +89,14 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
         for (TextElement element in line.elements) {
           print(element.text);
 
-          if (element.text.contains('-2019-') || element.text.contains('-2020-')) {
+          if (element.text.contains('-2019-') ||
+              element.text.contains('-2020-')) {
             setState(() {
               extractedText = element.text;
             });
 
             _finalDataDialog(
                 incomingId: widget.incomingId, outgoingId: extractedText);
-          } else {
-            showInSnackBar("Reference Id extraction failed", type: 1);
           }
         }
       }
@@ -105,6 +105,10 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
 
   @override
   void initState() {
+    commentController.addListener(() {
+      setState(() {});
+    });
+
     _controller = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 100),
@@ -112,6 +116,7 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
   }
 
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  final _formKey = GlobalKey<FormState>();
 
   @override
   Widget build(BuildContext context) {
@@ -167,26 +172,28 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
                 ),
               ),
             ),
-           pickedImage == null ? Container() :  Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                Padding(
-                  padding: EdgeInsets.all(50.0),
-                  child: RaisedButton(
-                    color: MyColors.primaryColor,
-                    child: Text(
-                      'Extract Text',
-                      style: TextStyle(color: Colors.white),
-                    ),
-                    onPressed: () {
-                      processImage().whenComplete(() {
-                        recognizeText.close();
-                      });
-                    },
+            pickedImage == null
+                ? Container()
+                : Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.all(50.0),
+                        child: RaisedButton(
+                          color: MyColors.primaryColor,
+                          child: Text(
+                            'Extract Text',
+                            style: TextStyle(color: Colors.white),
+                          ),
+                          onPressed: () {
+                            processImage().whenComplete(() {
+                              recognizeText.close();
+                            });
+                          },
+                        ),
+                      ),
+                    ],
                   ),
-                ),
-              ],
-            ),
             Padding(
               padding: EdgeInsets.all(50.0),
               child: Center(
@@ -255,6 +262,8 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
   }
 
   Future<void> _finalDataDialog({String incomingId, String outgoingId}) async {
+    String commentData;
+
     return showDialog<void>(
       context: context,
       barrierDismissible: false, // user must tap button!
@@ -266,6 +275,16 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
               children: <Widget>[
                 Text('Incoming: $incomingId'),
                 Text('Outgoing: $outgoingId'),
+                TextFormField(
+                  controller: commentController,
+                  decoration: InputDecoration(
+                    border: InputBorder.none,
+                    labelText: 'Add Comments',
+                  ),
+                  onChanged: (comment) {
+                    commentData = commentController.text;
+                  },
+                )
               ],
             ),
           ),
@@ -275,7 +294,9 @@ class _ExtractOutgoingState extends State<ExtractOutgoing>
               onPressed: () {
                 HandleCRUD()
                     .addRefNumber(
-                        incomingId: incomingId, outgoingId: outgoingId)
+                        incomingId: incomingId,
+                        outgoingId: outgoingId,
+                        comments: commentData)
                     .then((v) {
                   Navigator.pop(context);
                   showInSnackBar("Data Added Successfully");
