@@ -56,10 +56,15 @@ class _DashboardState extends State<Dashboard> {
             return ListView(
               children:
                   snapshot.data.documents.map((DocumentSnapshot document) {
-
                 String outgoing = document.data['outgoing'];
                 String incoming = document.data['incoming'];
                 String comments = document.data['comments'] ?? "";
+                TextEditingController inController =
+                    TextEditingController(text: incoming);
+                TextEditingController outController =
+                    TextEditingController(text: outgoing);
+                TextEditingController comController =
+                    TextEditingController(text: comments);
 
                 print(comments);
 
@@ -68,7 +73,10 @@ class _DashboardState extends State<Dashboard> {
                   leading: CircleAvatar(
                     backgroundColor: MyColors.primaryColor,
                     child: Center(
-                      child: Text(outgoing.substring(0,2), style: TextStyle(color: Colors.white),),
+                      child: Text(
+                        outgoing.substring(0, 2),
+                        style: TextStyle(color: Colors.white),
+                      ),
                     ),
                   ),
                   title: Text(outgoing),
@@ -77,6 +85,24 @@ class _DashboardState extends State<Dashboard> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
+                      IconButton(
+                        tooltip: 'Edit',
+                        icon: Icon(
+                          Icons.edit,
+                          color: MyColors.primaryColor,
+                        ),
+                        onPressed: () {
+                          _editDashboardDataDialog(
+                              documentID: document.documentID,
+                              incomingController: inController,
+                              outgoingController: outController,
+                              commentsConroller: comController,
+                              originalIncomingId: incoming,
+                              originalComments: comments,
+                              originalOutgoingId: outgoing
+                          );
+                        },
+                      ),
                       IconButton(
                         tooltip: 'Show Comments',
                         icon: Icon(
@@ -97,7 +123,6 @@ class _DashboardState extends State<Dashboard> {
                           _confirmDeleteDialog(documentID: document.documentID);
                         },
                       ),
-
                     ],
                   ),
                 );
@@ -106,6 +131,99 @@ class _DashboardState extends State<Dashboard> {
           }
         },
       ),
+    );
+  }
+
+  _editDashboardDataDialog(
+      {var documentID,
+      TextEditingController incomingController,
+      TextEditingController outgoingController,
+      TextEditingController commentsConroller,
+      String originalIncomingId,
+      String originalOutgoingId,
+      String originalComments
+      }) {
+
+    String incomingData;
+    String outgoingData;
+    String comments;
+
+    incomingController.addListener(() {
+      setState(() {});
+    });
+
+    outgoingController.addListener(() {
+      setState(() {});
+    });
+
+    commentsConroller.addListener(() {
+      setState(() {});
+    });
+
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false, // user must tap button!
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('EDIT DATA'),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                TextFormField(
+                  controller: incomingController,
+                  decoration: InputDecoration(
+                      border: InputBorder.none,
+                      labelText: 'Incoming',
+                      hintText: 'Incoming Data'),
+                  onChanged: (data) {
+                    incomingData = incomingController.text;
+                  },
+                ),
+                TextFormField(
+                  controller: outgoingController,
+                  decoration: InputDecoration(
+                      border: InputBorder.none,
+                      labelText: 'Ougoing',
+                      hintText: 'Outgoing Data'),
+                  onChanged: (data) {
+                    outgoingData = outgoingController.text;
+                  },
+                ),
+                TextFormField(
+                  controller: commentsConroller,
+                  decoration: InputDecoration(
+                      border: InputBorder.none,
+                      labelText: 'Comments',
+                      hintText: 'Write your comment'),
+                  onChanged: (data) {
+                    comments = commentsConroller.text;
+                  },
+                )
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            RaisedButton(
+              color: MyColors.primaryColor,
+              child: Text(
+                'SUBMIT',
+                style: TextStyle(color: Colors.white),
+              ),
+              onPressed: () {
+                Map<String,String> data = {
+                  "incoming": incomingData ?? originalIncomingId,
+                  "outgoing": outgoingData ?? originalOutgoingId,
+                  "comments": comments ?? originalComments
+                };
+
+                HandleCRUD().updateData(documentID, data);
+                showInSnackBar("Data Updated Successfully");
+                Navigator.of(context).pop();
+              },
+            )
+          ],
+        );
+      },
     );
   }
 
@@ -153,7 +271,10 @@ class _DashboardState extends State<Dashboard> {
           content: SingleChildScrollView(
             child: ListBody(
               children: <Widget>[
-                Text(comment, style: TextStyle(color: Colors.black),),
+                Text(
+                  comment,
+                  style: TextStyle(color: Colors.black),
+                ),
               ],
             ),
           ),
@@ -165,7 +286,6 @@ class _DashboardState extends State<Dashboard> {
                 style: TextStyle(color: Colors.white),
               ),
               onPressed: () {
-
                 Navigator.of(context).pop();
               },
             )
