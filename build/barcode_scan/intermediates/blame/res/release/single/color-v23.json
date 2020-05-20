@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/material-1.0.0.aar/961cc60e47fc2b06b2a0022c8d169323/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/barcode_scan/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/2bed54e75669c50f21a02c7e4b9e7dad/res/color-v23/abc_tint_seek_thumb.xml"
+    }
+]

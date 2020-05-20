@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/b4b5b25ab39269a11a5694ada9d97919/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/b4b5b25ab39269a11a5694ada9d97919/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/b4b5b25ab39269a11a5694ada9d97919/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/b4b5b25ab39269a11a5694ada9d97919/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/firebase_ml_vision/intermediates/res/merged/release/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/3c1fea837b772162f937b68e03eec2da/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    }
+]

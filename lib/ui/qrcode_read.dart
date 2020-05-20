@@ -1,13 +1,17 @@
 import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/material.dart';
 import 'package:qrtest/ui/dashboard.dart';
-import 'package:qrtest/ui/extract_outgoing.dart';
+import 'package:qrtest/ui/scan_outgoing.dart';
 import 'package:qrtest/utils/my_colors.dart';
 
 class QRCodeScan extends StatefulWidget {
   @override
   _QRCodeScanState createState() => _QRCodeScanState();
 }
+
+/// First we can the QR Code for our own country (incomingID for India)
+/// Second we scan the QR Code for the other country we are exchanging with (outgoingID for India)
+/// We confirm the data and then submit it to the DB
 
 class _QRCodeScanState extends State<QRCodeScan> {
   String barcode = '';
@@ -86,7 +90,7 @@ class _QRCodeScanState extends State<QRCodeScan> {
               child: Text('Go Ahead'),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
-                    builder: (BuildContext context) => ExtractOutgoing(
+                    builder: (BuildContext context) => ScanOutgoing(
                           incomingId: barcode,
                         )));
               },

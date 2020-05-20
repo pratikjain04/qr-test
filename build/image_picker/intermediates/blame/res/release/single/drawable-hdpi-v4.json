@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/home/pratik/qr-test/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_pressed.9.png",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/f7790b1c8ad6ed4dae3e695848bcf4ec/res/drawable-hdpi-v4/notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal_pressed.9.png",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/f7790b1c8ad6ed4dae3e695848bcf4ec/res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notify_panel_notification_icon_bg.png",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/f7790b1c8ad6ed4dae3e695848bcf4ec/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_low_normal.9.png",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/f7790b1c8ad6ed4dae3e695848bcf4ec/res/drawable-hdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/home/pratik/qr-test/build/image_picker/intermediates/res/merged/release/drawable-hdpi-v4/notification_bg_normal.9.png",
+        "source": "/home/pratik/.gradle/caches/transforms-1/files-1.1/core-1.0.2.aar/f7790b1c8ad6ed4dae3e695848bcf4ec/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    }
+]

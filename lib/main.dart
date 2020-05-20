@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
 import 'dart:async';
-import 'ui/extract_outgoing.dart';
+import 'ui/scan_outgoing.dart';
 
 void main() {
 
@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'IAESTE Offer Map',
       home: QRCodeScan(),
     );
