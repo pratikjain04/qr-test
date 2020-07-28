@@ -1,6 +1,11 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_downloader/flutter_downloader.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:qrtest/services/crud.dart';
+import 'package:qrtest/services/download_excel.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
 import 'package:qrtest/utils/my_colors.dart';
 
@@ -12,6 +17,7 @@ class Dashboard extends StatefulWidget {
 class _DashboardState extends State<Dashboard> {
   Stream<QuerySnapshot> data;
   final GlobalKey<ScaffoldState> _scaffoldKey = new GlobalKey<ScaffoldState>();
+  DownloadService downloadService = DownloadService();
 
   @override
   void initState() {
@@ -42,6 +48,46 @@ class _DashboardState extends State<Dashboard> {
                     MaterialPageRoute(
                         builder: (BuildContext context) => QRCodeScan()));
               }),
+          IconButton(
+              tooltip: "Download Excel",
+              icon: Icon(
+                Icons.file_download,
+                color: Colors.white,
+              ),
+              onPressed: () async {
+                var dio = Dio();
+                final externalDir = await getExternalStorageDirectory();
+                final status = await Permission.storage.request();
+                if(status.isGranted) {
+                  downloadService.download(
+                      dio, "http://iaeste.in/test.php", externalDir.path);
+                }
+                else{
+                  print("Permission Denied");
+                }
+//                final externalDir = await getExternalStorageDirectory();
+//                final status = await Permission.storage.request();
+//
+//                DownloadService.offerList.insert(0, {
+//                  "incoming": "Incoming ID",
+//                  "outgoing": "Outgoing ID",
+//                  "comments": "Comments"
+//                });
+//
+//                if (status.isGranted) {
+//               final id = await  FlutterDownloader.enqueue(
+//                      url: "https://www.iaeste.in/test.php",
+//                      headers: {
+//                        'string': DownloadService.offerList.toString()
+//                      },
+//                      savedDir: "/sdcard/download/",
+//                      fileName: "OfferMap.csv",
+//                      showNotification: true,
+//                      openFileFromNotification: true);
+//                } else {
+//                  print("Permission Denied");
+//                }
+              }),
         ],
       ),
       body: StreamBuilder<QuerySnapshot>(
@@ -66,9 +112,12 @@ class _DashboardState extends State<Dashboard> {
                 TextEditingController comController =
                     TextEditingController(text: comments);
 
-                print(comments);
+                DownloadService.offerList.add({
+                  'Incoming_ID': incoming,
+                  'Outgoing_ID': outgoing,
+                  'Comments': comments
+                });
 
-                print(document);
                 return ListTile(
                   leading: CircleAvatar(
                     backgroundColor: MyColors.primaryColor,
@@ -99,8 +148,7 @@ class _DashboardState extends State<Dashboard> {
                               commentsConroller: comController,
                               originalIncomingId: incoming,
                               originalComments: comments,
-                              originalOutgoingId: outgoing
-                          );
+                              originalOutgoingId: outgoing);
                         },
                       ),
                       IconButton(
@@ -141,9 +189,7 @@ class _DashboardState extends State<Dashboard> {
       TextEditingController commentsConroller,
       String originalIncomingId,
       String originalOutgoingId,
-      String originalComments
-      }) {
-
+      String originalComments}) {
     String incomingData;
     String outgoingData;
     String comments;
@@ -210,7 +256,7 @@ class _DashboardState extends State<Dashboard> {
                 style: TextStyle(color: Colors.white),
               ),
               onPressed: () {
-                Map<String,String> data = {
+                Map<String, String> data = {
                   "incoming": incomingData ?? originalIncomingId,
                   "outgoing": outgoingData ?? originalOutgoingId,
                   "comments": comments ?? originalComments

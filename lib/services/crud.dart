@@ -1,7 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-
-
 // incoming: Given from India to Foreign
 // outgoing: Taken from Foreign for India
 class HandleCRUD {

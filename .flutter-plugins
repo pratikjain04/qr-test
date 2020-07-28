@@ -2,3 +2,8 @@
 barcode_scan=/home/pratik/.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0/
 cloud_firestore=/home/pratik/.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.12.11/
 firebase_core=/home/pratik/.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.2+1/
+flutter_downloader=/home/pratik/.pub-cache/hosted/pub.dartlang.org/flutter_downloader-1.4.4/
+path_provider=/home/pratik/.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.11/
+path_provider_linux=/home/pratik/.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2/
+path_provider_macos=/home/pratik/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3/
+permission_handler=/home/pratik/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1/

@@ -4,6 +4,11 @@
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/barcode_scan-1.0.0" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/cloud_firestore-0.12.11" />
       <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/firebase_core-0.4.2+1" />
+      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/path_provider-1.6.11" />
+      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/path_provider_macos-0.0.4+3" />
+      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/path_provider_linux-0.0.1+2" />
+      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/flutter_downloader-1.4.4" />
+      <root url="file://$PROJECT_DIR$/../.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

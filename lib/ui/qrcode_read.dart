@@ -9,13 +9,14 @@ class QRCodeScan extends StatefulWidget {
   _QRCodeScanState createState() => _QRCodeScanState();
 }
 
-/// First we can the QR Code for our own country (incomingID for India)
+/// First we scan the QR Code for our own country (incomingID for India)
 /// Second we scan the QR Code for the other country we are exchanging with (outgoingID for India)
-/// We confirm the data and then submit it to the DB
+/// We confirm the data and then submit it to the Firestore DB
 
 class _QRCodeScanState extends State<QRCodeScan> {
   String barcode = '';
 
+  /// barcode scanning
   Future scan() async {
     try {
       String barcode = await BarcodeScanner.scan();
@@ -71,6 +72,7 @@ class _QRCodeScanState extends State<QRCodeScan> {
     );
   }
 
+  /// Confirms the final data to be entered in the Database
   Future<void> _finalDataDialog() async {
     return showDialog<void>(
       context: context,

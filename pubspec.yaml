@@ -13,6 +13,11 @@ dependencies:
   cloud_firestore: ^0.12.10
   flutter_speed_dial: ^1.0.9
   barcode_scan: ^1.0.0
+  http: ^0.12.2
+  path_provider: ^1.6.11
+  flutter_downloader: ^1.4.4
+  dio: ^3.0.9
+  permission_handler: ^5.0.1+1
 
 dev_dependencies:
   flutter_launcher_icons: "^0.7.3"
