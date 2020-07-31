@@ -7,6 +7,7 @@ import io.flutter.plugins.firebase.core.FirebaseCorePlugin;
 import vn.hunghd.flutterdownloader.FlutterDownloaderPlugin;
 import io.flutter.plugins.pathprovider.PathProviderPlugin;
 import com.baseflow.permissionhandler.PermissionHandlerPlugin;
+import bsi.iceman.searchable_dropdown.SearchableDropdownPlugin;
 
 /**
  * Generated file. Do not edit.
@@ -22,6 +23,7 @@ public final class GeneratedPluginRegistrant {
     FlutterDownloaderPlugin.registerWith(registry.registrarFor("vn.hunghd.flutterdownloader.FlutterDownloaderPlugin"));
     PathProviderPlugin.registerWith(registry.registrarFor("io.flutter.plugins.pathprovider.PathProviderPlugin"));
     PermissionHandlerPlugin.registerWith(registry.registrarFor("com.baseflow.permissionhandler.PermissionHandlerPlugin"));
+    SearchableDropdownPlugin.registerWith(registry.registrarFor("bsi.iceman.searchable_dropdown.SearchableDropdownPlugin"));
   }
 
   private static boolean alreadyRegisteredWith(PluginRegistry registry) {

@@ -40,6 +40,12 @@
 @import permission_handler;
 #endif
 
+#if __has_include(<searchable_dropdown/SearchableDropdownPlugin.h>)
+#import <searchable_dropdown/SearchableDropdownPlugin.h>
+#else
+@import searchable_dropdown;
+#endif
+
 @implementation GeneratedPluginRegistrant
 
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
@@ -49,6 +55,7 @@
   [FlutterDownloaderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterDownloaderPlugin"]];
   [FLTPathProviderPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTPathProviderPlugin"]];
   [PermissionHandlerPlugin registerWithRegistrar:[registry registrarForPlugin:@"PermissionHandlerPlugin"]];
+  [SearchableDropdownPlugin registerWithRegistrar:[registry registrarForPlugin:@"SearchableDropdownPlugin"]];
 }
 
 @end
