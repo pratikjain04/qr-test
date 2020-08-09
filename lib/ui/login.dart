@@ -53,17 +53,41 @@ class _LoginPageState extends State<LoginPage> {
     });
   }
 
+  handleSuccess(){
+    Navigator.pushReplacement(
+        context, MaterialPageRoute(builder: (context) => QRCodeScan()));
+  }
+
+  handleFailure(){
+    Toast.show("Incorrect Pin or Country", context,
+        gravity: Toast.BOTTOM,
+        backgroundColor: Colors.redAccent,
+        duration: Toast.LENGTH_SHORT);
+  }
+
+  int flag = 0;
+
   verifyPin({@required String country, @required String pin}) {
-    countryList.forEach((countryObject) {
-      if (countryObject.country == country && countryObject.pin == pin)
-        Navigator.pushReplacement(
-            context, MaterialPageRoute(builder: (context) => QRCodeScan()));
-      else
-        Toast.show("Incorrect Pin or Country", context,
-            gravity: Toast.BOTTOM,
-            backgroundColor: Colors.redAccent,
-            duration: Toast.LENGTH_SHORT);
-    });
+
+
+    for(int i = 0; i<countryList.length; i++){
+      if(countryList[i].country == country && countryList[i].pin == pin){
+        setState(() {
+          flag = 1;
+        });
+        break;
+      }
+      else {
+        setState(() {
+          flag = 0;
+        });
+      }
+    }
+
+    if(flag == 1)
+      handleSuccess();
+    else
+      handleFailure();
   }
 
   void createOptions(String text) {
@@ -80,7 +104,6 @@ class _LoginPageState extends State<LoginPage> {
       ),
     ));
   }
-
 
   @override
   void initState() {
@@ -143,11 +166,20 @@ class _LoginPageState extends State<LoginPage> {
                   child: TextField(
                     controller: pinController,
                     decoration: InputDecoration(
+                      border: InputBorder.none,
                       hintText: "Enter PIN",
                     ),
                     keyboardType: TextInputType.number,
                   ),
                 ),
+              ),
+              SizedBox(height: Constants.height/10),
+              RaisedButton(
+                color: Colors.white,
+                child: Text("Login", style: TextStyle(color: MyColors.primaryColor),),
+                onPressed: (){
+                  verifyPin(country: selectedCountry, pin: pinController.text);
+                },
               )
             ],
           ),
