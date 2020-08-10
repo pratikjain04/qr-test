@@ -2,6 +2,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:qrtest/utils/constants.dart';
 import 'package:qrtest/utils/my_colors.dart';
+import 'package:qrtest/utils/settings.dart';
 
 class SplashPage extends StatefulWidget {
   @override
@@ -10,15 +11,32 @@ class SplashPage extends StatefulWidget {
 
 class _SplashPageState extends State<SplashPage> {
 
-  bool isLoggedIn = false;
+  String countryName;
 
   @override
   void initState() {
     super.initState();
-    Timer(Duration(milliseconds: 2500), () {
+    checkLogin();
+  }
 
+  checkLogin() async {
+    await Storage.getCountry().then((value) {
+      print(value);
+      if(value != null){
+        setState(() {
+          countryName = value;
+          Constants.country = value;
+        });
+      }
+      startTimer();
+    });
+
+  }
+
+  startTimer() {
+    Timer(Duration(milliseconds: 1500), () {
       // if login status is logged in, i.e., if true then go to homepage
-      if(isLoggedIn)
+      if(countryName != null)
         Navigator.pushReplacementNamed(context, "/app");
       else
         Navigator.pushReplacementNamed(context, "/login");

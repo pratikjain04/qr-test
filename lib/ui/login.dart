@@ -5,6 +5,7 @@ import 'package:qrtest/models/login_model.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
 import 'package:qrtest/utils/constants.dart';
 import 'package:qrtest/utils/my_colors.dart';
+import 'package:qrtest/utils/settings.dart';
 import 'package:toast/toast.dart';
 
 class LoginPage extends StatefulWidget {
@@ -54,6 +55,8 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   handleSuccess(){
+    Constants.country = selectedCountry;
+    Storage.setCountry(value: selectedCountry);
     Navigator.pushReplacement(
         context, MaterialPageRoute(builder: (context) => QRCodeScan()));
   }
@@ -116,72 +119,74 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       backgroundColor: MyColors.primaryColor,
       body: SafeArea(
-        child: Container(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              SizedBox(
-                height: Constants.height / 50,
-              ),
-              Center(
-                child: Hero(
-                  tag: Constants.logoImage,
-                  child: Image.asset(
-                    Constants.logoImage,
-                    scale: 12.0,
-                  ),
+        child: SingleChildScrollView(
+          child: Container(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                SizedBox(
+                  height: Constants.height / 50,
                 ),
-              ),
-              SizedBox(
-                height: Constants.height / 5,
-              ),
-             isOptionCreated ? Center(
-                child: DropdownButton<String>(
-                  dropdownColor: MyColors.primaryColor,
-                  elevation: 10,
-                  iconDisabledColor: Colors.white,
-                  hint: Text("Select Country Name            ", style: TextStyle(color: Colors.white, fontSize: 20.0),),
-                  items: options,
-                  value: selectedCountry,
-                  style: TextStyle(color: Colors.white),
-                  onChanged: (value) {
-                    print(value);
-                    setState(() {
-                      selectedCountry = value;
-                    });
-                  },
-                ),
-              ) : Container(),
-              SizedBox(height: 20.0,),
-              Container(
-                height: Constants.height/20,
-                width: Constants.width/1.5,
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(4.0),
-                ),
-                child: Padding(
-                  padding: EdgeInsets.only(left: 10.0),
-                  child: TextField(
-                    controller: pinController,
-                    decoration: InputDecoration(
-                      border: InputBorder.none,
-                      hintText: "Enter PIN",
+                Center(
+                  child: Hero(
+                    tag: Constants.logoImage,
+                    child: Image.asset(
+                      Constants.logoImage,
+                      scale: 12.0,
                     ),
-                    keyboardType: TextInputType.number,
                   ),
                 ),
-              ),
-              SizedBox(height: Constants.height/10),
-              RaisedButton(
-                color: Colors.white,
-                child: Text("Login", style: TextStyle(color: MyColors.primaryColor),),
-                onPressed: (){
-                  verifyPin(country: selectedCountry, pin: pinController.text);
-                },
-              )
-            ],
+                SizedBox(
+                  height: Constants.height / 5,
+                ),
+               isOptionCreated ? Center(
+                  child: DropdownButton<String>(
+                    dropdownColor: MyColors.primaryColor,
+                    elevation: 10,
+                    iconDisabledColor: Colors.white,
+                    hint: Text("Select Country Name            ", style: TextStyle(color: Colors.white, fontSize: 20.0),),
+                    items: options,
+                    value: selectedCountry,
+                    style: TextStyle(color: Colors.white),
+                    onChanged: (value) {
+                      print(value);
+                      setState(() {
+                        selectedCountry = value;
+                      });
+                    },
+                  ),
+                ) : Container(),
+                SizedBox(height: 20.0,),
+                Container(
+                  height: Constants.height/20,
+                  width: Constants.width/1.5,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(4.0),
+                  ),
+                  child: Padding(
+                    padding: EdgeInsets.only(left: 10.0),
+                    child: TextField(
+                      controller: pinController,
+                      decoration: InputDecoration(
+                        border: InputBorder.none,
+                        hintText: "Enter PIN",
+                      ),
+                      keyboardType: TextInputType.number,
+                    ),
+                  ),
+                ),
+                SizedBox(height: Constants.height/10),
+                RaisedButton(
+                  color: Colors.white,
+                  child: Text("Login", style: TextStyle(color: MyColors.primaryColor),),
+                  onPressed: (){
+                    verifyPin(country: selectedCountry, pin: pinController.text);
+                  },
+                )
+              ],
+            ),
           ),
         ),
       ),

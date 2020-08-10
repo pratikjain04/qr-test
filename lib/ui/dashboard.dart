@@ -1,3 +1,5 @@
+import 'dart:convert';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
@@ -7,7 +9,9 @@ import 'package:permission_handler/permission_handler.dart';
 import 'package:qrtest/services/crud.dart';
 import 'package:qrtest/services/download_excel.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
+import 'package:qrtest/utils/constants.dart';
 import 'package:qrtest/utils/my_colors.dart';
+import 'package:http/http.dart' as http;
 
 class Dashboard extends StatefulWidget {
   @override
@@ -58,40 +62,40 @@ class _DashboardState extends State<Dashboard> {
                 var dio = Dio();
                 final externalDir = await getExternalStorageDirectory();
                 final status = await Permission.storage.request();
-                if(status.isGranted) {
-                  downloadService.download(
-                      dio, "http://iaeste.in/test.php", externalDir.path);
-                }
-                else{
+
+                DownloadService.offerList.insert(0, {
+                  "incoming": "Incoming ID",
+                  "outgoing": "Outgoing ID",
+                  "comments": "Comments"
+                });
+
+                var bodyTemp = {
+                  'cnt': Constants.country,
+                  'string': jsonEncode(DownloadService.offerList.toSet().toList())
+                };
+
+
+                http.Response response =
+                    await http.post("https://iaeste.in/test.php", body: bodyTemp);
+                print(response.body);
+                print(response.statusCode);
+
+                if (status.isGranted) {
+               final id = await  FlutterDownloader.enqueue(
+                      url: "https://www.iaeste.in/AGC/${Constants.country}/iasteFile.csv",
+
+                      savedDir: "/sdcard/download/",
+                      fileName: "iasteFile.csv",
+                      showNotification: true,
+                      openFileFromNotification: true);
+                } else {
                   print("Permission Denied");
                 }
-//                final externalDir = await getExternalStorageDirectory();
-//                final status = await Permission.storage.request();
-//
-//                DownloadService.offerList.insert(0, {
-//                  "incoming": "Incoming ID",
-//                  "outgoing": "Outgoing ID",
-//                  "comments": "Comments"
-//                });
-//
-//                if (status.isGranted) {
-//               final id = await  FlutterDownloader.enqueue(
-//                      url: "https://www.iaeste.in/test.php",
-//                      headers: {
-//                        'string': DownloadService.offerList.toString()
-//                      },
-//                      savedDir: "/sdcard/download/",
-//                      fileName: "OfferMap.csv",
-//                      showNotification: true,
-//                      openFileFromNotification: true);
-//                } else {
-//                  print("Permission Denied");
-//                }
               }),
         ],
       ),
       body: StreamBuilder<QuerySnapshot>(
-        stream: Firestore.instance.collection('/refNumber').snapshots(),
+        stream: Firestore.instance.collection(Constants.country).snapshots(),
         builder: (context, snapshot) {
           if (!snapshot.hasData)
             return Center(

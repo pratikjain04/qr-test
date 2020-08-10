@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:qrtest/ui/login.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
 import 'package:qrtest/ui/splash.dart';
+import 'package:qrtest/utils/settings.dart';
 import 'dart:async';
 import 'ui/scan_outgoing.dart';
 import 'package:flutter_downloader/flutter_downloader.dart';
@@ -12,8 +13,11 @@ void main() async{
   await FlutterDownloader.initialize(
       debug: true // optional: set false to disable printing logs to console
   );
+
   runApp(MyApp());
 }
+
+
 
 class MyApp extends StatelessWidget {
 
@@ -25,7 +29,8 @@ class MyApp extends StatelessWidget {
       title: 'IAESTE Offer Map',
       home: SplashPage(),
       routes: <String, WidgetBuilder> {
-        "/login": (BuildContext context) => LoginPage()
+        "/login": (BuildContext context) => LoginPage(),
+        '/app': (BuildContext context) => QRCodeScan()
       },
     );
   }
