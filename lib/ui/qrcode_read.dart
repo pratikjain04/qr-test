@@ -1,7 +1,7 @@
 import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/material.dart';
 import 'package:qrtest/ui/dashboard.dart';
-import 'package:qrtest/ui/extract_outgoing.dart';
+import 'package:qrtest/ui/scan_outgoing.dart';
 import 'package:qrtest/utils/my_colors.dart';
 
 class QRCodeScan extends StatefulWidget {
@@ -9,9 +9,14 @@ class QRCodeScan extends StatefulWidget {
   _QRCodeScanState createState() => _QRCodeScanState();
 }
 
+/// First we scan the QR Code for our own country (incomingID for India)
+/// Second we scan the QR Code for the other country we are exchanging with (outgoingID for India)
+/// We confirm the data and then submit it to the Firestore DB
+
 class _QRCodeScanState extends State<QRCodeScan> {
   String barcode = '';
 
+  /// barcode scanning
   Future scan() async {
     try {
       String barcode = await BarcodeScanner.scan();
@@ -67,6 +72,7 @@ class _QRCodeScanState extends State<QRCodeScan> {
     );
   }
 
+  /// Confirms the final data to be entered in the Database
   Future<void> _finalDataDialog() async {
     return showDialog<void>(
       context: context,
@@ -86,7 +92,7 @@ class _QRCodeScanState extends State<QRCodeScan> {
               child: Text('Go Ahead'),
               onPressed: () {
                 Navigator.of(context).push(MaterialPageRoute(
-                    builder: (BuildContext context) => ExtractOutgoing(
+                    builder: (BuildContext context) => ScanOutgoing(
                           incomingId: barcode,
                         )));
               },

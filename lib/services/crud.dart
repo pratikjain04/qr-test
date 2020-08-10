@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
-
-
+import 'package:qrtest/utils/constants.dart';
 
 // incoming: Given from India to Foreign
 // outgoing: Taken from Foreign for India
@@ -15,7 +14,7 @@ class HandleCRUD {
       "comments": comments
     };
 
-    Firestore.instance.collection('/refNumber').add(data).catchError((e){
+    Firestore.instance.collection(Constants.country).add(data).catchError((e){
       print(e);
     });
   
@@ -24,14 +23,14 @@ class HandleCRUD {
 
   /// for fetching data as streams from Firestore
   getData() async{
-    return await Firestore.instance.collection('/refNumber').snapshots();
+    return await Firestore.instance.collection(Constants.country).snapshots();
   }
 
 
   /// for updating data in dashboard if wrongly entered
   updateData(selectedDoc, newValues) {
     Firestore.instance
-        .collection('refNumber')
+        .collection(Constants.country)
         .document(selectedDoc)
         .updateData(newValues)
         .catchError((e) {
@@ -42,7 +41,7 @@ class HandleCRUD {
   /// for deleting a offer map from database
   deleteData(docId) {
     Firestore.instance
-        .collection('refNumber')
+        .collection(Constants.country)
         .document(docId)
         .delete()
         .catchError((e) {
