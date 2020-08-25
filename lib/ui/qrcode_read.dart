@@ -1,8 +1,10 @@
 import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/material.dart';
 import 'package:qrtest/ui/dashboard.dart';
+import 'package:qrtest/ui/login.dart';
 import 'package:qrtest/ui/scan_outgoing.dart';
 import 'package:qrtest/utils/my_colors.dart';
+import 'package:qrtest/utils/settings.dart';
 
 class QRCodeScan extends StatefulWidget {
   @override
@@ -40,12 +42,32 @@ class _QRCodeScanState extends State<QRCodeScan> {
           backgroundColor: MyColors.primaryColor,
           title: Text('IAESTE India'),
           centerTitle: true,
+          leading: IconButton(
+            icon: Icon(
+              Icons.power_settings_new,
+              color: Colors.white,
+            ),
+            onPressed: () async {
+             await Storage.setCountry(value: null).then((value) {
+                print(value);
+                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginPage()));
+              });
+            },
+          ),
           actions: <Widget>[
             IconButton(
               tooltip: 'Dashboard',
-              icon: Icon(Icons.track_changes, color: Colors.white,), onPressed: (){
-              Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Dashboard()));
-            },)
+              icon: Icon(
+                Icons.track_changes,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => Dashboard()));
+              },
+            )
           ],
         ),
         floatingActionButton: FloatingActionButton(
@@ -62,14 +84,12 @@ class _QRCodeScanState extends State<QRCodeScan> {
           },
         ),
         body: Center(
-          child: Container(
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                      image: AssetImage("assets/bg.png"),
-                  )
-              ),
-        ))
-    );
+            child: Container(
+          decoration: BoxDecoration(
+              image: DecorationImage(
+            image: AssetImage("assets/bg.png"),
+          )),
+        )));
   }
 
   /// Confirms the final data to be entered in the Database
