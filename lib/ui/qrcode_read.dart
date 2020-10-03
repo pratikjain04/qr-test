@@ -48,9 +48,10 @@ class _QRCodeScanState extends State<QRCodeScan> {
               color: Colors.white,
             ),
             onPressed: () async {
-             await Storage.setCountry(value: null).then((value) {
+              await Storage.setCountry(value: null).then((value) {
                 print(value);
-                Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginPage()));
+                Navigator.pushReplacement(context,
+                    MaterialPageRoute(builder: (context) => LoginPage()));
               });
             },
           ),

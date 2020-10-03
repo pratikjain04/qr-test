@@ -252,5 +252,462 @@
       "Country": "Yemen",
       "Pin": "338204"
     }
+  ],
+  "code": [
+    {
+      "country_code": "AF",
+      "IAESTE_Name": "Afghanistan, KU",
+      "country_name": "Afghanistan"
+    },
+    {
+      "country_code": "AF",
+      "IAESTE_Name": "Afghanistan, SESO",
+      "country_name": "Afghanistan"
+    },
+    {
+      "country_code": "AR",
+      "IAESTE_Name": "Argentina",
+      "country_name": "Argentina"
+    },
+    {
+      "country_code": "AU",
+      "IAESTE_Name": "Australia",
+      "country_name": "Australia"
+    },
+    {
+      "country_code": "AT",
+      "IAESTE_Name": "Austria",
+      "country_name": "Austria"
+    },
+    {
+      "country_code": "BD",
+      "IAESTE_Name": "Bangladesh",
+      "country_name": "Bangladesh"
+    },
+    {
+      "country_code": "BY",
+      "IAESTE_Name": "Belarus",
+      "country_name": "Belarus"
+    },
+    {
+      "country_code": "BE",
+      "IAESTE_Name": "Belgium",
+      "country_name": "Belgium"
+    },
+    {
+      "country_code": "BO",
+      "IAESTE_Name": "Bolivia, IB",
+      "country_name": "Bolivia"
+    },
+    {
+      "country_code": "BA",
+      "IAESTE_Name": "Bosnia and Herzegovina",
+      "country_name": "Bosnia and Herzegovina"
+    },
+    {
+      "country_code": "BR",
+      "IAESTE_Name": "Brazil",
+      "country_name": "Brazil"
+    },
+    {
+      "country_code": "CA",
+      "IAESTE_Name": "Canada",
+      "country_name": "Canada"
+    },
+    {
+      "country_code": "PT",
+      "IAESTE_Name": "Portugal",
+      "country_name": "Portugal"
+    },
+    {
+      "country_code": "HK",
+      "IAESTE_Name": "China Hong Kong",
+      "country_name": "China including Hong Kong SAR and Macao SAR"
+    },
+    {
+      "country_code": "PL",
+      "IAESTE_Name": "Poland",
+      "country_name": "Poland"
+    },
+    {
+      "country_code": "CN",
+      "IAESTE_Name": "China Mainland",
+      "country_name": "China including Hong Kong SAR and Macao SAR"
+    },
+    {
+      "country_code": "CO",
+      "IAESTE_Name": "Colombia",
+      "country_name": "Colombia"
+    },
+    {
+      "country_code": "HR",
+      "IAESTE_Name": "Croatia",
+      "country_name": "Croatia"
+    },
+    {
+      "country_code": "CY",
+      "IAESTE_Name": "Cyprus",
+      "country_name": "Cyprus"
+    },
+    {
+      "country_code": "CZ",
+      "IAESTE_Name": "Czech Republic",
+      "country_name": "Czech Republic"
+    },
+    {
+      "country_code": "DK",
+      "IAESTE_Name": "Denmark",
+      "country_name": "Denmark"
+    },
+    {
+      "country_code": "KP",
+      "IAESTE_Name": "DPR Korea, PUST",
+      "country_name": "DPR Korea"
+    },
+    {
+      "country_code": "TN",
+      "IAESTE_Name": "Tunisia",
+      "country_name": "Tunisia"
+    },
+    {
+      "country_code": "EG",
+      "IAESTE_Name": "Egypt",
+      "country_name": "Egypt"
+    },
+    {
+      "country_code": "FI",
+      "IAESTE_Name": "Finland, TU",
+      "country_name": "Finland"
+    },
+    {
+      "country_code": "FR",
+      "IAESTE_Name": "France, GA",
+      "country_name": "France"
+    },
+    {
+      "country_code": "JP",
+      "IAESTE_Name": "Japan",
+      "country_name": "Japan"
+    },
+    {
+      "country_code": "DE",
+      "IAESTE_Name": "Germany",
+      "country_name": "Germany"
+    },
+    {
+      "country_code": "GH",
+      "IAESTE_Name": "Ghana",
+      "country_name": "Ghana"
+    },
+    {
+      "country_code": "GR",
+      "IAESTE_Name": "Greece",
+      "country_name": "Greece"
+    },
+    {
+      "country_code": "HU",
+      "IAESTE_Name": "Hungary",
+      "country_name": "Hungary"
+    },
+    {
+      "country_code": "IS",
+      "IAESTE_Name": "Iceland",
+      "country_name": "Iceland"
+    },
+    {
+      "country_code": "IN",
+      "IAESTE_Name": "India",
+      "country_name": "India"
+    },
+    {
+      "country_code": "ID",
+      "IAESTE_Name": "Indonesia, UAJY",
+      "country_name": "Indonesia"
+    },
+    {
+      "country_code": "IR",
+      "IAESTE_Name": "Iran",
+      "country_name": "Iran"
+    },
+    {
+      "country_code": "IQ",
+      "IAESTE_Name": "Iraq, UA",
+      "country_name": "Iraq"
+    },
+    {
+      "country_code": "IE",
+      "IAESTE_Name": "Ireland",
+      "country_name": "Ireland"
+    },
+    {
+      "country_code": "IL",
+      "IAESTE_Name": "Israel",
+      "country_name": "Israel"
+    },
+    {
+      "country_code": "JM",
+      "IAESTE_Name": "Jamaica, JOYST",
+      "country_name": "Jamaica"
+    },
+    {
+      "country_code": "MT",
+      "IAESTE_Name": "Malta",
+      "country_name": "Malta"
+    },
+    {
+      "country_code": "JO",
+      "IAESTE_Name": "Jordan",
+      "country_name": "Jordan"
+    },
+    {
+      "country_code": "KZ",
+      "IAESTE_Name": "Kazakhstan",
+      "country_name": "Kazakhstan"
+    },
+    {
+      "country_code": "KE",
+      "IAESTE_Name": "Kenya, DKUT",
+      "country_name": "Kenya"
+    },
+    {
+      "country_code": "MK",
+      "IAESTE_Name": "North Macedonia",
+      "country_name": "North Macedonia"
+    },
+    {
+      "country_code": "KR",
+      "IAESTE_Name": "Korea, Republic of",
+      "country_name": "Republic of Korea"
+    },
+    {
+      "country_code": "KW",
+      "IAESTE_Name": "Kuwait, ACK",
+      "country_name": "Kuwait"
+    },
+    {
+      "country_code": "LB",
+      "IAESTE_Name": "Lebanon",
+      "country_name": "Lebanon"
+    },
+    {
+      "country_code": "MY",
+      "IAESTE_Name": "Malaysia, MIU",
+      "country_name": "Malaysia"
+    },
+    {
+      "country_code": "EC",
+      "IAESTE_Name": "Ecuador",
+      "country_name": "Ecuador"
+    },
+    {
+      "country_code": "MX",
+      "IAESTE_Name": "Mexico",
+      "country_name": "Mexico"
+    },
+    {
+      "country_code": "MN",
+      "IAESTE_Name": "Mongolia",
+      "country_name": "Mongolia"
+    },
+    {
+      "country_code": "NP",
+      "IAESTE_Name": "Nepal",
+      "country_name": "Nepal"
+    },
+    {
+      "country_code": "NL",
+      "IAESTE_Name": "Netherlands",
+      "country_name": "Netherlands"
+    },
+    {
+      "country_code": "MO",
+      "IAESTE_Name": "China Macao",
+      "country_name": "China including Hong Kong SAR and Macao SAR"
+    },
+    {
+      "country_code": "NI",
+      "IAESTE_Name": "Nicaragua, ULSA",
+      "country_name": "Nicaragua"
+    },
+    {
+      "country_code": "NG",
+      "IAESTE_Name": "Nigeria",
+      "country_name": "Nigeria"
+    },
+    {
+      "country_code": "KE",
+      "IAESTE_Name": "Kenya, JKUAT",
+      "country_name": "Kenya"
+    },
+    {
+      "country_code": "NO",
+      "IAESTE_Name": "Norway",
+      "country_name": "Norway"
+    },
+    {
+      "country_code": "OM",
+      "IAESTE_Name": "Oman",
+      "country_name": "Oman"
+    },
+    {
+      "country_code": "PK",
+      "IAESTE_Name": "Pakistan",
+      "country_name": "Pakistan"
+    },
+    {
+      "country_code": "PA",
+      "IAESTE_Name": "Panama",
+      "country_name": "Panama"
+    },
+    {
+      "country_code": "GM",
+      "IAESTE_Name": "Gambia, MIMT",
+      "country_name": "Gambia"
+    },
+    {
+      "country_code": "PE",
+      "IAESTE_Name": "Peru",
+      "country_name": "Peru"
+    },
+    {
+      "country_code": "PH",
+      "IAESTE_Name": "Philippines",
+      "country_name": "Philippines"
+    },
+    {
+      "country_code": "PS",
+      "IAESTE_Name": "Palestine, ANU",
+      "country_name": "Palestine"
+    },
+    {
+      "country_code": "CL",
+      "IAESTE_Name": "Chile, TU",
+      "country_name": "Chile"
+    },
+    {
+      "country_code": "QA",
+      "IAESTE_Name": "Qatar",
+      "country_name": "Qatar"
+    },
+    {
+      "country_code": "RO",
+      "IAESTE_Name": "Romania",
+      "country_name": "Romania"
+    },
+    {
+      "country_code": "RU",
+      "IAESTE_Name": "Russia",
+      "country_name": "Russia"
+    },
+    {
+      "country_code": "SA",
+      "IAESTE_Name": "Saudi Arabia, TU",
+      "country_name": "Saudi Arabia"
+    },
+    {
+      "country_code": "RS",
+      "IAESTE_Name": "Serbia",
+      "country_name": "Serbia"
+    },
+    {
+      "country_code": "SK",
+      "IAESTE_Name": "Slovakia",
+      "country_name": "Slovakia"
+    },
+    {
+      "country_code": "SI",
+      "IAESTE_Name": "Slovenia",
+      "country_name": "Slovenia"
+    },
+    {
+      "country_code": "ZA",
+      "IAESTE_Name": "South Africa, GT",
+      "country_name": "South Africa"
+    },
+    {
+      "country_code": "ES",
+      "IAESTE_Name": "Spain",
+      "country_name": "Spain"
+    },
+    {
+      "country_code": "LK",
+      "IAESTE_Name": "Sri Lanka, UM",
+      "country_name": "Sri Lanka"
+    },
+    {
+      "country_code": "SE",
+      "IAESTE_Name": "Sweden",
+      "country_name": "Sweden"
+    },
+    {
+      "country_code": "CH",
+      "IAESTE_Name": "Switzerland",
+      "country_name": "Switzerland"
+    },
+    {
+      "country_code": "SY",
+      "IAESTE_Name": "Syria",
+      "country_name": "Syria"
+    },
+    {
+      "country_code": "TJ",
+      "IAESTE_Name": "Tajikistan",
+      "country_name": "Tajikistan"
+    },
+    {
+      "country_code": "TZ",
+      "IAESTE_Name": "Tanzania",
+      "country_name": "Tanzania"
+    },
+    {
+      "country_code": "TH",
+      "IAESTE_Name": "Thailand",
+      "country_name": "Thailand"
+    },
+    {
+      "country_code": "NZ",
+      "IAESTE_Name": "New Zealand, AUSA",
+      "country_name": "New Zealand"
+    },
+    {
+      "country_code": "TR",
+      "IAESTE_Name": "Turkey",
+      "country_name": "Turkey"
+    },
+    {
+      "country_code": "UA",
+      "IAESTE_Name": "Ukraine, IF",
+      "country_name": "Ukraine"
+    },
+    {
+      "country_code": "AE",
+      "IAESTE_Name": "United Arab Emirates",
+      "country_name": "United Arab Emirates"
+    },
+    {
+      "country_code": "UK",
+      "IAESTE_Name": "United Kingdom",
+      "country_name": "United Kingdom"
+    },
+    {
+      "country_code": "US",
+      "IAESTE_Name": "United States",
+      "country_name": "United States"
+    },
+    {
+      "country_code": "UZ",
+      "IAESTE_Name": "Uzbekistan",
+      "country_name": "Uzbekistan"
+    },
+    {
+      "country_code": "VN",
+      "IAESTE_Name": "Vietnam, TNU",
+      "country_name": "Vietnam"
+    },
+    {
+      "country_code": "YE",
+      "IAESTE_Name": "Yemen, HU",
+      "country_name": "Yemen"
+    }
   ]
 }

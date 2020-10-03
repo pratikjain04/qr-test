@@ -8,6 +8,7 @@ import 'package:path_provider/path_provider.dart';
 import 'package:permission_handler/permission_handler.dart';
 import 'package:qrtest/services/crud.dart';
 import 'package:qrtest/services/download_excel.dart';
+import 'package:qrtest/ui/exchange_graph.dart';
 import 'package:qrtest/ui/qrcode_read.dart';
 import 'package:qrtest/utils/constants.dart';
 import 'package:qrtest/utils/my_colors.dart';
@@ -60,6 +61,7 @@ class _DashboardState extends State<Dashboard> {
               ),
               onPressed: () async {
                 var dio = Dio();
+                // todo: use externalDir for iOS
                 final externalDir = await getExternalStorageDirectory();
                 final status = await Permission.storage.request();
 
@@ -69,21 +71,20 @@ class _DashboardState extends State<Dashboard> {
                   "comments": "Comments"
                 });
 
+                // .toSet() is used for eliminating duplicate values
                 var bodyTemp = {
                   'cnt': Constants.country,
                   'string': jsonEncode(DownloadService.offerList.toSet().toList())
                 };
 
-
-                http.Response response =
-                    await http.post("https://iaeste.in/test.php", body: bodyTemp);
+                http.Response response = await http
+                    .post("https://iaeste.in/test.php", body: bodyTemp);
                 print(response.body);
                 print(response.statusCode);
 
                 if (status.isGranted) {
-               final id = await  FlutterDownloader.enqueue(
+                  final id = await FlutterDownloader.enqueue(
                       url: "https://www.iaeste.in/AGC/${Constants.country}/iasteFile.csv",
-
                       savedDir: "/sdcard/download/",
                       fileName: "iasteFile.csv",
                       showNotification: true,
@@ -93,6 +94,17 @@ class _DashboardState extends State<Dashboard> {
                 }
               }),
         ],
+      ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(context,
+              MaterialPageRoute(builder: (context) => ExchangeGraph()));
+        },
+        backgroundColor: MyColors.primaryColor,
+        child: Icon(
+          Icons.insert_chart,
+          color: Colors.white,
+        ),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: Firestore.instance.collection(Constants.country).snapshots(),
@@ -185,6 +197,7 @@ class _DashboardState extends State<Dashboard> {
       ),
     );
   }
+  
 
   _editDashboardDataDialog(
       {var documentID,
