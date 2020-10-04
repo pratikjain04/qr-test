@@ -1,6 +1,10 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'package:charts_flutter/flutter.dart' as charts;
+import 'package:qrtest/models/county_code_model.dart';
+import 'package:qrtest/services/download_excel.dart';
 import 'package:qrtest/utils/constants.dart';
 
 
@@ -12,13 +16,17 @@ class ExchangeGraph extends StatefulWidget {
 class _ExchangeGraphState extends State<ExchangeGraph> {
 
   List<charts.Series> seriesList;
+  static List<String> outgoingCountries = [];
+  List<CountryCodeModel> countryCodeModel = [];
+  static List<dynamic> dataList = [];
+  static Map<String, String> graphData = Map<String,String>();
 
   // todo: call in initState after dataloading
   static List<charts.Series<ExchangeData, String>> _getCountryData() {
     final random = Random();
 
     // todo: build this data in initstate
-    final data = [
+    var data = [
       ExchangeData('Germany', random.nextInt(100)),
       ExchangeData('Austria', random.nextInt(100)),
       ExchangeData('Spain', random.nextInt(100)),
@@ -49,10 +57,42 @@ class _ExchangeGraphState extends State<ExchangeGraph> {
     );
   }
 
+ Future<void> buildCountryCodeList() async {
+    String data = await DefaultAssetBundle.of(context).loadString("assets/data.json");
+    List<dynamic> res = json.decode(data)["code"];
+
+    countryCodeModel?.clear();
+
+    res.forEach((data) {
+      countryCodeModel.add(CountryCodeModel.fromJson(data));
+    });
+
+  }
+
+
+  calc() {
+    dataList?.clear();
+    dataList = DownloadService.offerList.toSet().toList(); // list of scanned data
+    outgoingCountries?.clear();
+    /// adding outgoingID to a list for grouping it later
+    dataList.forEach((element) {
+      outgoingCountries.add(element["Outgoing_ID"].toString().substring(0,2));
+    });
+    /// outgoingCountries = ['AR', 'AR', 'TR'];
+
+    outgoingCountries.forEach((id) {
+      // todo: count number of offers from each country India has exchanged with
+      /// Argentina : 2, Turkey: 1 and display this data on bar graph
+    });
+  }
+
   @override
   void initState() {
     super.initState();
-    seriesList = _getCountryData();
+    buildCountryCodeList().then((_) {
+      calc();
+      seriesList = _getCountryData();
+    });
   }
 
   @override
