@@ -15,11 +15,11 @@ class ExchangeGraph extends StatefulWidget {
 
 class _ExchangeGraphState extends State<ExchangeGraph> {
 
-  List<charts.Series> seriesList; // for bar graph
+  List<charts.Series> seriesList = []; // for bar graph
   static List<String> outgoingCountries = []; // for outgoingCountryIDs
   List<CountryCodeModel> countryCodeModel = []; // for storing country codes from data.json
   static List<dynamic> dataList = []; // for the dashboard data
-  static Map<String, String> graphData = Map<String,String>(); // for creating the final map of data
+  static Map<String, int> graphData = Map<String,int>(); // for creating the final map of data
   /// graphData = {
   ///  "Argentina" : "2",
   ///  "Turkey" : "1"
@@ -79,9 +79,9 @@ class _ExchangeGraphState extends State<ExchangeGraph> {
   }
 
 
-  calc() {
+ Future<void> calc() async {
     dataList?.clear();
-    dataList = DownloadService.offerList.toSet().toList(); // list of scanned data
+    dataList = DownloadService.offerList.toSet().toList(); // list of scanned data from firebase
     outgoingCountries?.clear();
     /// adding outgoingID to a list for grouping it later
     dataList.forEach((element) {
@@ -92,16 +92,21 @@ class _ExchangeGraphState extends State<ExchangeGraph> {
     outgoingCountries.forEach((id) {
       // todo: count number of offers from each country India has exchanged with
       /// Argentina : 2, Turkey: 1 and display this data on bar graph
+      print(id);
+      graphData[id] = graphData[id] == null ? 1 : graphData[id] + 1;
     });
+    print(graphData); // this graph has all the required information
   }
 
   @override
   void initState() {
     super.initState();
-    buildCountryCodeList().then((_) {
+
+    buildCountryCodeList().then((value){
       calc();
-      seriesList = _getCountryData();
     });
+    seriesList = _getCountryData();
+
   }
 
   @override
